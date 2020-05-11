@@ -1,4 +1,6 @@
 # WeirdestSpeciesCombination
 
-### Contributors 
-Alessandro Filazzola
+### Contributors
+- Benjamin Mercier
+- Alessandro Filazzola
+
