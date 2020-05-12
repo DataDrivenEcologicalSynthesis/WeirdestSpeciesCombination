@@ -4,6 +4,7 @@
 - Benjamin Mercier
 - Alessandro Filazzola
 - Courtney Robichaud
+- Susannah Tysor
 
 
 ### Project Description
