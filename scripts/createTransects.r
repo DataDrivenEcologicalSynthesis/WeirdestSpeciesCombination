@@ -6,6 +6,9 @@ library(raster)
 # library(dismo) ## used to get Canada Polygon
 library(rgeos)
 
+## load fucntions
+source("scripts//functions.r")
+
 ## Download polygon for Canada
 # canPoly <- getData(name="GADM", country="CAN", level=1) ## run once for download
 canPoly <- readRDS("data//gadm36_CAN.rds") ## load polygon
@@ -34,26 +37,11 @@ lat2km(43.6532) ## 1 decimal degree at Toronto is 80.5435
 ## Decimal degrees to 10 km buffer
 resToronto <- 1/80.5435*10 ## 0.1241 decimal degrees  = 10 km 
 
-## Create 10 x 10 km buffer around Toronto
-poly1 <- gBuffer(cities, width=resToronto, capStyle="SQUARE", quadsegs = 4)
-
-## Plot Ontario and point to test
-plot(canPoly[canPoly$NAME_1=="Ontario",]) ## plot just Ontario
-plot(cities, add=T, col="blue", pch=19, cex=2) ## plot just Toronto
-plot(poly1, add=T, col="orange", lwd=2) ## plot polygon to make sure it worked
-
-
-## Create function that takes city coordinates and generated transects
-cityTransect <- function(citylon, citylat, nquadrat, resolution, distance){ ## nquadrat is the number of quadrats, resolution is the km in decimal degrees, and distance is the distance between points
-transect <- data.frame(lon  = seq(citylon, by = 0, length.out=nquadrat), ## keep longitude unchanged
-                       lat = seq(citylat, by = distance, length.out=nquadrat)) ## move latitude up by distance
-transectSP <- SpatialPoints(transect, proj4string = CRS("+proj=longlat +datum=WGS84")) ## create sp dataframe
-quadratPoly <- gBuffer(transectSP, width=resolution, capStyle="SQUARE", byid=T)
-return(quadratPoly)
-}
 
 ## Create transect for Toronto
-torontoTransect <- cityTransect(citylon = cities$lon, citylat = cities$lat, nquadrat = 5, resolution = resToronto, distance = resToronto*3)
+torontoTransect <- cityTransect(citylon = cities$lon, citylat = cities$lat, nquadrat = 6,  ## nquadrat is the number of quadrats
+                                buffer=5, ## distance in km around the centroid of city to make the buffer. e.g. 5 = 10 x 10 km box with city as center
+                                distance = 10) ## distance in km between buffered transects
 
 ## Plot to make sure it worked
 plot(canPoly[canPoly$NAME_1=="Ontario",]) ## plot just Ontario
