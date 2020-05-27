@@ -1,10 +1,8 @@
 #### Generate Transects for Canadian cities
 
 ## Load libraries
-library(rgdal)
 library(raster)
 # library(dismo) ## used to get Canada Polygon
-library(rgeos)
 
 ## load fucntions
 source("scripts//functions.r")
