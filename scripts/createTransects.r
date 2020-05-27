@@ -45,3 +45,7 @@ torontoTransect <- cityTransect(citylon = cities$lon, citylat = cities$lat, nqua
 plot(canPoly[canPoly$NAME_1=="Ontario",]) ## plot just Ontario
 plot(cities, add=T, col="blue", pch=19, cex=2) ## plot just Toronto    
 plot(torontoTransect, add=T)
+
+## Save to file
+saveRDS(torontoTransect, file = "data//transects//toronto.rds")
+
