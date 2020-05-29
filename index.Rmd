@@ -1,0 +1,53 @@
+---
+title: "Weirdest Combination of Species"
+output:
+  html_document:
+    theme: flatly
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+  pdf_document:
+    toc: yes
+editor_options: 
+  chunk_output_type: console
+---
+
+### Welcome
+In the middle ground between science and superstition we dive into the weird. Here we seek out the weirdest combinations of species on Earth? Come join us as we work through this project. This readme file contains an overview and details of the project. 
+
+![](icon.jpg)
+
+* [Contributor List](#Contributors)
+* [Project Description](#Project-Description)
+* [Generate transects](#Generate-transects)
+
+
+### Contributors
+
+- Benjamin Mercier, `@BenMerSci`
+- Alessandro Filazzola, `@afilazzola`
+- Courtney Robichaud, `@cdrobich`
+- Susannah Tysor, `@scisus`
+
+### Project Description
+Where is the weirdest combination of species on Earth?
+
+### Generate transects
+```{r warning=FALSE, message=FALSE}
+## Load backend code for functions that generate transects
+source("scripts//createTransects.r")
+
+## dataframe of lat, lon for cities
+cities <- data.frame(city = c("Toronto"),
+             lon = c(-79.3832),
+             lat = c(43.6532))
+
+## Create transect for Toronto
+torontoTransect <- cityTransect(citylon = cities$lon, citylat = cities$lat, nquadrat = 5,  ## nquadrat is the number of quadrats
+                                buffer=5, ## distance in km around the centroid of city to make the buffer. e.g. 5 = 10 x 10 km box with city as center
+                                distance = 10) ## distance in km between buffered transects
+
+## Plot transect
+plot(canPoly[canPoly$NAME_1=="Ontario",], col="orange", ylim=c(41,45), xlim=c(-82,-76)) ## plot just Ontario, set x & y lim to zoom into Toronto area
+plot(torontoTransect, add=T, col="blue")
+```
