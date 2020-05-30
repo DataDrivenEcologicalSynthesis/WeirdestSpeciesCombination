@@ -10,7 +10,7 @@ source("scripts//functions.r")
 ## Download polygon for Canada
 # canPoly <- getData(name="GADM", country="CAN", level=1) ## run once for download
 canPoly <- readRDS("data//gadm36_CAN.rds") ## load polygon
-plot(canPoly) ## takes a while because all the islands 
+# plot(canPoly) ## takes a while because all the islands 
 
 
 ## dataframe of lat, lon for cities
@@ -41,7 +41,11 @@ torontoTransect <- cityTransect(citylon = cities$lon, citylat = cities$lat, nqua
                                 buffer=5, ## distance in km around the centroid of city to make the buffer. e.g. 5 = 10 x 10 km box with city as center
                                 distance = 10) ## distance in km between buffered transects
 
-## Plot to make sure it worked
-plot(canPoly[canPoly$NAME_1=="Ontario",]) ## plot just Ontario
-plot(cities, add=T, col="blue", pch=19, cex=2) ## plot just Toronto    
-plot(torontoTransect, add=T)
+# ## Plot to make sure it worked
+# plot(canPoly[canPoly$NAME_1=="Ontario",]) ## plot just Ontario
+# plot(cities, add=T, col="blue", pch=19, cex=2) ## plot just Toronto    
+# plot(torontoTransect, add=T)
+
+## Save to file
+saveRDS(torontoTransect, file = "data//transects//toronto.rds")
+
