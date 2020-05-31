@@ -1,4 +1,5 @@
 "quadrat","scientificName","count"
+<<<<<<< HEAD
 1,"Ã—Crataegomespilus grandiflora (Sm.) Bean",8
 1,"Ã—Cupressocyparis leylandii (A.B.Jacks. & Dallim.) Dallim.",8
 1,"Ã—Tritisecale Lebedeff",8
@@ -7257,3 +7258,1756 @@
 6,"Viola macloskeyi subsp. pallens (Banks ex Gingins) M.S.Baker",1
 6,"Vitis riparia Michx.",2
 6,"Xanthocyparis nootkatensis (D.Don) Farjon & D.K.Harder",27
+=======
+1,"Abies balsamea Mill.",4
+1,"Abutilon theophrasti Medik.",2
+1,"Acalypha rhomboidea Raf.",8
+1,"Acer campestre L.",1
+1,"Acer freemanii A.E.Murray",1
+1,"Acer ginnala Maxim.",1
+1,"Acer L.",9
+1,"Acer negundo L.",36
+1,"Acer nigrum F.Michx.",2
+1,"Acer pensylvanicum L.",1
+1,"Acer platanoides L.",27
+1,"Acer pseudoplatanus L.",2
+1,"Acer rubrum L.",13
+1,"Acer saccharinum L.",18
+1,"Acer saccharum Marshall",12
+1,"Acer spicatum Lam.",3
+1,"Achillea filipendulina Lam.",1
+1,"Achillea millefolium L.",15
+1,"Achillea ptarmica L.",1
+1,"Acorus americanus (Raf.) Raf.",1
+1,"Actaea pachypoda Elliott",3
+1,"Actaea racemosa L.",1
+1,"Aegopodium podagraria L.",4
+1,"Aesculus carnea Hayne",1
+1,"Aesculus hippocastanum L.",15
+1,"Agalinis paupercula var. borealis Pennell",1
+1,"Agalinis tenuifolia Raf.",1
+1,"Agalinis tenuifolia var. parviflora (Nutt.) Pennell",2
+1,"Agastache foeniculum Kuntze",1
+1,"Agastache rugosa Kuntze",2
+1,"Ageratina altissima (L.) R.M.King & H.Rob.",3
+1,"Agrimonia pubescens Wallr.",1
+1,"Agropyron cristatum (L.) Gaertn.",1
+1,"Agropyron cristatum subsp. pectinatum (M.Bieb.) Tzvelev",2
+1,"Agrostis gigantea Roth",2
+1,"Agrostis hyemalis (Walter) Britton, Sterns & Poggenb.",1
+1,"Agrostis scabra Willd.",6
+1,"Agrostis stolonifera L.",8
+1,"Ailanthus altissima (Mill.) Swingle",31
+1,"Ajuga reptans L.",1
+1,"Alcea rosea L.",1
+1,"Alisma gramineum Lej.",2
+1,"Alisma plantago-aquatica L.",8
+1,"Alisma triviale Pursh",1
+1,"Alkekengi officinarum Moench",2
+1,"Alliaria petiolata (M.Bieb.) Cavara & Grande",45
+1,"Allium schoenoprasum L.",2
+1,"Alnus glutinosa (L.) Gaertn.",9
+1,"Alnus incana (L.) Moench",2
+1,"Amaranthus albus L.",2
+1,"Amaranthus blitoides S.Watson",4
+1,"Amaranthus retroflexus L.",3
+1,"Amblystegium humile (P.Beauv.) Crundw.",1
+1,"Ambrosia artemisiifolia L.",7
+1,"Ambrosia trifida L.",4
+1,"Amelanchier alnifolia Nutt.",2
+1,"Amelanchier arborea (Michx.f.) Fernald",4
+1,"Amelanchier arborea subsp. laevis (Wieg.) S.Mc Kay ex Landry",1
+1,"Amelanchier laevis Wiegand",1
+1,"Ammophila breviligulata Fernald",3
+1,"Anacardiaceae",2
+1,"Anagallis arvensis L.",1
+1,"Anaphalis margaritacea (L.) Benth. & Hook.f.",1
+1,"Andropogon gerardii Vitman",4
+1,"Anemonastrum canadense (L.) Mosyakin",11
+1,"Anemone canadensis L.",2
+1,"Anemone cylindrica A.Gray",3
+1,"Anthemis arvensis L.",1
+1,"Anthemis cotula L.",7
+1,"Apios americana Medik.",1
+1,"Apocynaceae",3
+1,"Apocynum cannabinum L.",1
+1,"Apocynum cannabinum var. cannabinum",1
+1,"Apocynum cannabinum var. hypericifolium (Aiton) A.Gray",4
+1,"Aquilegia canadensis L.",6
+1,"Aquilegia vulgaris L.",3
+1,"Arabis divaricarpa var. divaricarpa",1
+1,"Arctium lappa L.",4
+1,"Arctium minus Bernh.",7
+1,"Arenaria serpyllifolia L.",4
+1,"Argentina anserina Rydb.",5
+1,"Arisaema triphyllum (L.) Schott",4
+1,"Armoracia rusticana P.Gaertn., B.Mey. & Scherb.",1
+1,"Aronia melanocarpa Nutt. ex Elliott",3
+1,"Artemisia biennis Willd.",6
+1,"Artemisia campestris L.",6
+1,"Artemisia L.",3
+1,"Artemisia ludoviciana Nutt.",1
+1,"Artemisia vulgaris L.",7
+1,"Asarum canadense L.",1
+1,"Asclepias incarnata L.",7
+1,"Asclepias incarnata subsp. incarnata",1
+1,"Asclepias syriaca L.",37
+1,"Asclepias tuberosa L.",4
+1,"Aster amethystinus Nutt.",2
+1,"Aster brachyactis S.F.Blake",12
+1,"Aster ericoides Lam.",4
+1,"Aster L.",4
+1,"Aster laevis × Aster lanceolatus",1
+1,"Aster lanceolatus subsp. lanceolatus",4
+1,"Aster lateriflorus var. angustifolius Wiegand",1
+1,"Aster novae-angliae L.",3
+1,"Aster pilosus var. pringlei A.Gray",6
+1,"Aster urophyllus Lindl.",1
+1,"Atocion armeria Fourr.",1
+1,"Atriplex rosea L.",2
+1,"Avena sativa L.",1
+1,"Barbarea vulgaris W.T.Aiton",6
+1,"Berberis thunbergii DC.",7
+1,"Berberis vulgaris L.",2
+1,"Betula alleghaniensis Britton",1
+1,"Betula cordifolia Regel",1
+1,"Betula nigra L.",1
+1,"Betula papyrifera Marshall",8
+1,"Betula pendula Roth",4
+1,"Bidens cernua L.",7
+1,"Bidens frondosa L.",2
+1,"Bidens tripartita L.",1
+1,"Bolboschoenus fluviatilis (Torr.) Soják",1
+1,"Brachythecium rutabulum W.P.Schimper, 1853",1
+1,"Brassica oleracea L.",3
+1,"Brassicaceae",3
+1,"Bromus hordeaceus L.",1
+1,"Bromus inermis Leyss.",7
+1,"Bromus tectorum L.",5
+1,"Bryum argenteum Hedwig, 1801",1
+1,"Butomus umbellatus L.",3
+1,"Cakile edentula (Bigelow) Hook.",1
+1,"Cakile edentula var. lacustris Fernald",1
+1,"Calamagrostis canadensis (Michx.) P.Beauv.",6
+1,"Caltha palustris L.",10
+1,"Calypogeia meylanii H.Buch",1
+1,"Calystegia sepium R.Br.",10
+1,"Camelina microcarpa Andrz.",1
+1,"Camelina microcarpa Andrz. ex DC.",1
+1,"Campanula aparinoides Pursh",3
+1,"Campanula rapunculoides L.",19
+1,"Campsis radicans (L.) Seem.",2
+1,"Capsella bursa-pastoris (L.) Medik.",1
+1,"Caragana arborescens Lam.",1
+1,"Caragana Fabr.",3
+1,"Cardamine diphylla (Michx.) Alph.Wood",2
+1,"Cardamine impatiens L.",1
+1,"Carduus acanthoides L.",2
+1,"Carduus nutans L.",10
+1,"Carduus nutans subsp. nutans",1
+1,"Carex aquatilis Wahlenb.",10
+1,"Carex aurea Nutt.",2
+1,"Carex bebbii (L.H.Bailey) Olney ex Fernald",1
+1,"Carex blanda Dewey",1
+1,"Carex cephalophora Muhl. ex Willd.",1
+1,"Carex communis L.H.Bailey",1
+1,"Carex cristatella Britton",1
+1,"Carex deweyana Schwein.",2
+1,"Carex hystericina Willd.",2
+1,"Carex lanuginosa Michx.",11
+1,"Carex pedunculata Muhl. ex Willd.",2
+1,"Carex pensylvanica Lam.",3
+1,"Carex pseudocyperus L.",2
+1,"Carex retrorsa Schwein.",1
+1,"Carex spicata Huds.",1
+1,"Carex tribuloides Wahlenb.",2
+1,"Carex viridula Michx.",4
+1,"Carex vulpinoidea Michx.",9
+1,"Carpinus caroliniana Walter",5
+1,"Carya cordiformis (Wangenh.) C.Koch",4
+1,"Carya cordiformis (Wangenh.) K.Koch",2
+1,"Carya ovata K.Koch",4
+1,"Caryophyllales",1
+1,"Catalpa speciosa Warder",2
+1,"Catalpa speciosa Warder ex Engelm.",4
+1,"Celastrus scandens L.",1
+1,"Celtis occidentalis L.",5
+1,"Cenchrus longispinus (Hack. ex Kneucker) Fernald",3
+1,"Centaurea cyanus L.",4
+1,"Centaurea montana L.",3
+1,"Centaurea stoebe L.",7
+1,"Centaurea stoebe subsp. micranthos (S.G.Gmel. ex Gugler) Hayek",1
+1,"Centaurium pulchellum (Sw.) Druce",2
+1,"Cephalanthus occidentalis L.",14
+1,"Cerastium fontanum Baumg.",2
+1,"Cerastium fontanum subsp. triviale (Spenn.) Jalas",3
+1,"Cerastium tomentosum L.",3
+1,"Ceratodon purpureus Bridel, 1826",1
+1,"Cercis canadensis L.",8
+1,"Chaenorhinum minus Lange",3
+1,"Chamaesyce glyptosperma (Engelm.) Small",2
+1,"Chamaesyce polygonifolia (L.) Small",2
+1,"Chara aspera Willd.",1
+1,"Chasmanthium latifolium (Michx.) H.O.Yates",1
+1,"Chelidonium majus L.",15
+1,"Chenopodium album L.",2
+1,"Chenopodium simplex (Torr.) Raf.",2
+1,"Chrysanthemum leucanthemum L.",2
+1,"Cicerbita muralis (L.) Wallr.",2
+1,"Cichorium intybus L.",33
+1,"Cicuta maculata var. angustifolia Hook.",1
+1,"Circaea canadensis (L.) Hill",4
+1,"Cirsium arvense (L.) Scop.",20
+1,"Cirsium vulgare (Savi) Ten.",17
+1,"Citrullus lanatus (Thunb.) Matsumura & Nakai",6
+1,"Citrullus vulgaris Schrader",2
+1,"Clematis virginiana L.",1
+1,"Commelina communis L.",7
+1,"Conium maculatum L.",1
+1,"Conoclinium coelestinum DC.",1
+1,"Convallaria majalis L.",5
+1,"Convolvulus arvensis L.",6
+1,"Conyza canadensis (L.) Cronq.",6
+1,"Coreopsis lanceolata L.",5
+1,"Cornus alternifolia L.f.",7
+1,"Cornus L.",2
+1,"Cornus racemosa Lam.",1
+1,"Cornus rugosa Lam.",2
+1,"Cornus sericea L.",27
+1,"Cornus stolonifera Michx.",5
+1,"Coronopus squamatus (Forssk.) Asch.",1
+1,"Corydalis scouleri Hook.",1
+1,"Corydalis solida (L.) Clairv.",2
+1,"Corylus cornuta Marshall",3
+1,"Cosmos bipinnatus Cav.",4
+1,"Cota tinctoria J.Gay",1
+1,"Cotinus coggygria Scop.",1
+1,"Cotoneaster horizontalis Decne.",2
+1,"Crataegus chrysocarpa Ashe",1
+1,"Crataegus corusca Sarg.",1
+1,"Crataegus crus-galli L.",1
+1,"Crataegus holmesiana Ashe",1
+1,"Crataegus L.",3
+1,"Crataegus macrosperma Ashe",2
+1,"Crataegus media nothovar. media",1
+1,"Crataegus monogyna Jacq.",7
+1,"Crataegus pedicellata Sarg.",1
+1,"Crataegus persimilis Sarg.",3
+1,"Crataegus phaenopyrum (L.f.) Medik.",2
+1,"Crataegus pringlei Sarg.",1
+1,"Crataegus punctata Jacq.",3
+1,"Crataegus punctata var. aurea Aiton",1
+1,"Crepis tectorum L.",8
+1,"Crocus chrysanthus Herb.",1
+1,"Crocus vernus (L.) Hill",3
+1,"Cycloloma atriplicifolium (Spreng.) J.M.Coult.",3
+1,"Cymbalaria muralis P.Gaertner, B.Meyer & Scherb.",1
+1,"Cynanchum rossicum Kleop.",3
+1,"Cynoglossum officinale L.",2
+1,"Cyperus bipartitus Torr.",6
+1,"Cyperus fuscus L.",6
+1,"Cyperus odoratus L.",2
+1,"Cyperus rivularis Kunth",1
+1,"Cyperus schweinitzii Torr.",4
+1,"Cypripedium parviflorum Salisb.",1
+1,"Dactylis glomerata L.",3
+1,"Dasiphora fruticosa Rydb.",1
+1,"Datura innoxia Mill.",3
+1,"Datura stramonium L.",1
+1,"Daucus carota L.",25
+1,"Decodon verticillatus Elliott",1
+1,"Desmodium canadense (L.) DC.",2
+1,"Desmodium Desv.",8
+1,"Dianthus armeria L.",5
+1,"Diervilla lonicera Mill.",3
+1,"Digitaria sanguinalis (L.) Scop.",1
+1,"Diplotaxis muralis DC.",1
+1,"Diplotaxis tenuifolia (L.) DC.",5
+1,"Dipsacus L.",19
+1,"Doellingeria umbellata Nees",1
+1,"Draba verna L.",4
+1,"Dracocephalum parviflorum Nutt.",1
+1,"Drepanocladus aduncus Warnstorf, 1903",2
+1,"Drymocallis arguta (Pursh) Rydb.",1
+1,"Dryopteris intermedia A.Gray",1
+1,"Dryopteris marginalis (L.) A.Gray",2
+1,"Echinacea purpurea (L.) Moench",12
+1,"Echinochloa crus-galli (L.) P.Beauv.",3
+1,"Echinochloa microstachya (Wiegand) Rydb.",2
+1,"Echinochloa muricata (P.Beauv.) Fernald",3
+1,"Echinocystis lobata Torr. & A.Gray",1
+1,"Echium vulgare L.",19
+1,"Elaeagnus angustifolia L.",7
+1,"Elaeagnus umbellata C.P.Thunb. ex A.Murray",2
+1,"Eleocharis acicularis (L.) Roem. & Schult.",2
+1,"Eleocharis elliptica Kunth",5
+1,"Eleocharis erythropoda Steud.",9
+1,"Eleocharis palustris (L.) Roem. & Schult.",1
+1,"Eleocharis quinqueflora (Hartm.) O.Schwarz",1
+1,"Eleusine indica (L.) Gaertn.",1
+1,"Elodea canadensis Michx.",2
+1,"Elymus canadensis L.",10
+1,"Elymus repens (L.) Gould",8
+1,"Epilobium ciliatum Raf.",7
+1,"Epilobium ciliatum subsp. ciliatum",2
+1,"Epilobium coloratum Biehler",1
+1,"Epilobium hirsutum L.",6
+1,"Epilobium L.",6
+1,"Epipactis helleborine (L.) Crantz",4
+1,"Equisetum arvense L.",22
+1,"Equisetum hyemale L.",14
+1,"Equisetum hyemale subsp. affine (Engelm.) Calder & Roy L.Taylor",3
+1,"Equisetum nelsonii J.H.Schaffn.",9
+1,"Equisetum pratense Ehrh.",1
+1,"Equisetum sylvaticum L.",2
+1,"Equisetum variegatum Schleich. ex F.Weber & D.Mohr",2
+1,"Eragrostis minor Host",1
+1,"Eragrostis pectinacea (Michx.) Nees",4
+1,"Eranthis hyemalis Salisb.",2
+1,"Erechtites hieraciifolius Walp.",1
+1,"Erigeron annuus Pers.",4
+1,"Erigeron canadensis L.",4
+1,"Erigeron philadelphicus L.",14
+1,"Erigeron strigosus Muhl. ex Willd.",5
+1,"Erodium cicutarium (L.) L'Hér.",2
+1,"Erodium moschatum (Burm.f.) L'Hér.",1
+1,"Erucastrum gallicum O.E.Schulz",2
+1,"Erysimum cheiranthoides L.",4
+1,"Erythronium americanum Ker Gawl.",12
+1,"Erythronium americanum subsp. americanum",1
+1,"Euonymus alatus (Thunb.) Siebold",4
+1,"Euonymus europaeus L.",6
+1,"Euonymus fortunei (Turcz.) Hand.-Mazz.",8
+1,"Euonymus fortunei var. radicans (Sieb. ex Miq.) Rehder",1
+1,"Eupatorium maculatum L.",1
+1,"Eupatorium perfoliatum L.",9
+1,"Euphorbia davidii R.Subils",1
+1,"Euphorbia helioscopia L.",4
+1,"Euphorbia L.",1
+1,"Euphorbia marginata Pursh",6
+1,"Euphorbia myrsinites L.",3
+1,"Euthamia graminifolia (L.) Nutt.",3
+1,"Eutrochium maculatum (L.) E.E.Lamont",3
+1,"Fabaceae",5
+1,"Fagus grandifolia Ehrh.",5
+1,"Festuca L.",3
+1,"Festuca rubra L.",9
+1,"Festuca trachyphylla (Hack.) Krajina",1
+1,"Ficaria verna Huds.",5
+1,"Fissidens taxifolius Hedwig, 1801",1
+1,"Foeniculum vulgare Mill.",1
+1,"Forsythia intermedia Zabel",1
+1,"Forsythia viridissima Lindl.",1
+1,"Fragaria ananassa (Weston) Duchesne ex Rozier",1
+1,"Fragaria vesca L.",2
+1,"Fragaria virginiana Duchesne",5
+1,"Fragaria virginiana Mill.",2
+1,"Frangula alnus Mill.",2
+1,"Fraxinus americana L.",6
+1,"Fraxinus nigra Marshall",1
+1,"Fraxinus pennsylvanica Marshall",3
+1,"Funaria hygrometrica Hedwig, 1801",2
+1,"Gaillardia aristata Pursh",1
+1,"Gaillardia pulchella Foug.",7
+1,"Galanthus elwesii Hook.f.",2
+1,"Galanthus nivalis L.",3
+1,"Galinsoga ciliata (Rafin.) S.F.Blake",1
+1,"Galinsoga quadriradiata Ruiz & Pav.",6
+1,"Galium aparine L.",1
+1,"Galium mollugo L.",1
+1,"Galium palustre L.",2
+1,"Galium triflorum Michx.",1
+1,"Gaultheria procumbens L.",1
+1,"Gentianopsis crinita (Froel.) Ma",2
+1,"Geranium maculatum L.",5
+1,"Geranium robertianum L.",4
+1,"Geranium sanguineum L.",1
+1,"Gerardia purpurea var. parviflora Benth.",1
+1,"Gerardia tenuifolia Vahl",4
+1,"Geum urbanum L.",5
+1,"Glechoma hederacea L.",13
+1,"Gleditsia triacanthos f. inermis (L.) C.K.Schneid.",5
+1,"Gleditsia triacanthos L.",8
+1,"Glyceria striata (Lam.) Hitchc.",1
+1,"Gnaphalium uliginosum L.",2
+1,"Gymnocladus dioica (L.) K.Koch",1
+1,"Hamamelis virginiana L.",4
+1,"Hedera helix L.",14
+1,"Helianthus annuus L.",3
+1,"Helianthus tuberosus L.",1
+1,"Heliopsis helianthoides (L.) Sw.",3
+1,"Hemerocallis fulva L.",2
+1,"Hepatica acutiloba DC.",4
+1,"Heracleum maximum Bartr.",2
+1,"Hesperis matronalis L.",14
+1,"Hieracium lachenalii C.C.Gmel.",2
+1,"Hieracium piloselloides Vill.",5
+1,"Hordeum jubatum L.",7
+1,"Hordeum jubatum var. jubatum",5
+1,"Humulus lupulus L.",1
+1,"Hydrangea arborescens L.",1
+1,"Hydrophyllum virginianum L.",9
+1,"Hylotelephium telephium (L.) H.Ohba",1
+1,"Hypericum majus (A.Gray) Britton",2
+1,"Hypericum perforatum L.",10
+1,"Ilex verticillata A.Gray",2
+1,"Impatiens capensis Meerb.",13
+1,"Impatiens pallida Nutt.",5
+1,"Ipomoea purpurea (L.) Roth",2
+1,"Iris pseudacorus L.",6
+1,"Iris versicolor L.",6
+1,"Isatis tinctoria L.",1
+1,"Juglans cinerea L.",3
+1,"Juglans nigra L.",13
+1,"Juncus alpinoarticulatus Chaix",5
+1,"Juncus articulatus L.",5
+1,"Juncus balticus Willd.",10
+1,"Juncus brachycephalus Buchenau",1
+1,"Juncus bufonius L.",8
+1,"Juncus bufonius var. bufonius",1
+1,"Juncus compressus Jacq.",19
+1,"Juncus dudleyi Wiegand",2
+1,"Juncus gerardii Loisel.",5
+1,"Juncus nodosus L.",4
+1,"Juncus tenuis Willd.",2
+1,"Juncus torreyi Coville",1
+1,"Juniperus virginiana L.",5
+1,"Kerria japonica (L.) DC.",1
+1,"Kochia scoparia (L.) Schrad.",6
+1,"Lactuca biennis (Moench) Fernald",1
+1,"Lactuca canadensis L.",1
+1,"Lactuca serriola L.",7
+1,"Lamiaceae",1
+1,"Lamium galeobdolon (L.) L.",1
+1,"Lamium maculatum L.",2
+1,"Lamium purpureum L.",5
+1,"Lappula squarrosa Dumort.",1
+1,"Lapsana communis L.",4
+1,"Larix decidua Mill.",2
+1,"Larix laricina (Du Roi) K.Koch",2
+1,"Lathyrus japonicus Willd.",1
+1,"Lathyrus latifolius L.",5
+1,"Lathyrus palustris L.",2
+1,"Leersia oryzoides (L.) Sw.",1
+1,"Lemna minor L.",1
+1,"Leonurus cardiaca L.",9
+1,"Lepidium aucheri Boiss.",1
+1,"Lepidium campestre (L.) W.T.Aiton",2
+1,"Lepidium densiflorum Schrad.",5
+1,"Lepidium ruderale L.",3
+1,"Lepidium virginicum L.",2
+1,"Lespedeza capitata Michx.",2
+1,"Leucanthemum vulgare Lam.",11
+1,"Leucobryum glaucum Ångström, 1845",1
+1,"Liatris scariosa (L.) Willd.",1
+1,"Lilium michiganense Farw.",3
+1,"Linaria vulgaris Mill.",16
+1,"Lindera benzoin Meisn.",1
+1,"Lindernia dubia (L.) Pennell",2
+1,"Linnaea amabilis (Graebn.) Christenh.",1
+1,"Linum medium var. medium",1
+1,"Liriodendron tulipifera L.",2
+1,"Lobelia cardinalis L.",3
+1,"Lobelia kalmii L.",1
+1,"Lobelia siphilitica L.",4
+1,"Lobularia maritima (L.) Desv.",1
+1,"Lolium perenne L.",3
+1,"Lonicera bella Zabel.",3
+1,"Lonicera ciliosa Poir.",1
+1,"Lonicera L.",2
+1,"Lonicera tatarica L.",11
+1,"Lonicera xylosteum L.",1
+1,"Lotus corniculatus L.",13
+1,"Lunaria annua L.",2
+1,"Lupinus perennis L.",4
+1,"Lupinus polyphyllus Lindl.",3
+1,"Lycopersicon esculentum Miller",2
+1,"Lycopus americanus Muhl. ex W.P.C.Barton",6
+1,"Lycopus europaeus L.",7
+1,"Lycopus uniflorus Michx.",1
+1,"Lysimachia arvensis (L.) U.Manns & Anderb.",3
+1,"Lysimachia ciliata L.",3
+1,"Lysimachia clethroides Duby",1
+1,"Lysimachia nummularia L.",4
+1,"Lysimachia punctata L.",1
+1,"Lysimachia quadrifolia L.",1
+1,"Lysimachia terrestris Britton, Sterns & Poggenb.",1
+1,"Lysimachia thyrsiflora L.",2
+1,"Lysimachia vulgaris L.",9
+1,"Lythrum L.",2
+1,"Lythrum salicaria L.",29
+1,"Magnoliophyta",59
+1,"Maianthemum canadense Desf.",3
+1,"Maianthemum racemosum Link",4
+1,"Maianthemum racemosum subsp. racemosum",1
+1,"Maianthemum stellatum Link",5
+1,"Malus domestica Borkh.",1
+1,"Malus pumila Mill.",4
+1,"Malva moschata L.",4
+1,"Malva neglecta Wallr",2
+1,"Malva parviflora L.",1
+1,"Malva rotundifolia L.",4
+1,"Malva sylvestris L.",1
+1,"Matricaria discoidea DC.",3
+1,"Matricaria maritima L.",1
+1,"Matricaria matricarioides (Less.) Porter",4
+1,"Matteuccia struthiopteris (L.) Tod.",3
+1,"Medicago lupulina L.",5
+1,"Medicago sativa L.",8
+1,"Medicago sativa subsp. sativa",1
+1,"Melilotus albus Medik.",15
+1,"Melilotus officinalis Pall.",7
+1,"Mentha arvensis L.",9
+1,"Mentha canadensis L.",1
+1,"Mertensia virginica Link",1
+1,"Mimulus ringens L.",5
+1,"Mirabilis nyctaginea (Michx.) Mac Mill.",4
+1,"Miscanthus sinensis Andersson",1
+1,"Monarda didyma L.",1
+1,"Monarda fistulosa L.",12
+1,"Morus alba L.",15
+1,"Muhlenbergia mexicana Trin.",1
+1,"Muscari armeniacum H.J.Veitch",1
+1,"Myosotis laxa Lehm.",1
+1,"Myosotis scorpioides L.",4
+1,"Myosotis sylvatica Hoffm.",1
+1,"Myriophyllum sibiricum Komarov",1
+1,"Myriophyllum spicatum L.",4
+1,"Narcissus poeticus L.",1
+1,"Nemopanthus mucronata (L.) Trel.",1
+1,"Nepeta cataria L.",9
+1,"Nicandra physalodes (L.) Gaertn.",3
+1,"Nicotiana longiflora Cav.",4
+1,"Nuphar variegata Engelm. ex Dur.",1
+1,"Nymphaea odorata Aiton",17
+1,"Oenothera biennis L.",10
+1,"Oenothera L.",9
+1,"Oenothera oakesiana Robbins ex S.Watson",1
+1,"Oenothera parviflora L.",6
+1,"Oenothera villosa Thunb.",1
+1,"Onoclea sensibilis L.",2
+1,"Origanum vulgare L.",1
+1,"Osmorhiza claytonii Macl.",1
+1,"Osmunda claytoniana L.",1
+1,"Ostrya virginiana K.Koch",8
+1,"Oxalis dillenii Jacq.",1
+1,"Oxalis L.",1
+1,"Oxalis stricta L.",5
+1,"Panicum acuminatum Sw.",8
+1,"Panicum capillare L.",6
+1,"Panicum dichotomiflorum Michx.",5
+1,"Panicum flexile Scribn.",1
+1,"Panicum miliaceum L.",2
+1,"Panicum virgatum L.",6
+1,"Papaver somniferum L.",3
+1,"Parietaria pensylvanica Muhl. ex Willd.",1
+1,"Parthenocissus inserta (A.Kerner) Fritsch",1
+1,"Parthenocissus quinquefolia (L.) Planch.",6
+1,"Parthenocissus tricuspidata Planch.",1
+1,"Pastinaca sativa L.",1
+1,"Penstemon digitalis Nutt.",2
+1,"Penstemon hirsutus Willd.",3
+1,"Penthorum sedoides L.",1
+1,"Persicaria amphibia (L.) Gray",1
+1,"Persicaria longiseta (Bruijn) Kitag.",1
+1,"Persicaria maculosa Gray",1
+1,"Persicaria orientalis (L.) Spach",2
+1,"Petunia atkinsiana D.Don ex Loud",1
+1,"Petunia hybrida (Hook.fil.) Vilmorin",1
+1,"Phalaris arundinacea L.",4
+1,"Phalaris canariensis L.",1
+1,"Phaseolus L.",2
+1,"Phaseolus vulgaris L.",1
+1,"Phedimus kamtschaticus (Fisch. & C.A.Mey.) 't Hart",1
+1,"Phleum pratense L.",2
+1,"Phlox paniculata L.",2
+1,"Phlox subulata L.",1
+1,"Phragmites australis (Cav.) Steud.",11
+1,"Phragmites australis subsp. americanus Saltonst., P.M.Peterson & Soreng",3
+1,"Phragmites australis subsp. australis",4
+1,"Physcomitrium pyriforme Hampe, 1837",1
+1,"Physocarpus opulifolius (L.) Maxim.",2
+1,"Physostegia virginiana Benth.",9
+1,"Phytolacca americana L.",2
+1,"Picea abies (L.) H.Karst.",2
+1,"Picea glauca (Moench) Voss",4
+1,"Pilosella caespitosa (Dumort.) P.D.Sell & C.West",1
+1,"Pinus banksiana Lamb.",1
+1,"Pinus nigra f. nigra",2
+1,"Pinus nigra J.F.Arnold",4
+1,"Pinus nigra subsp. nigra",1
+1,"Pinus resinosa Aiton",1
+1,"Pinus rigida Mill.",1
+1,"Pinus strobus L.",10
+1,"Pinus sylvestris L.",4
+1,"Pinus sylvestris var. nana Pall.",1
+1,"Plagiomnium cuspidatum T.Koponen, 1968",2
+1,"Plantago arenaria Waldst. & Kit.",7
+1,"Plantago lanceolata L.",3
+1,"Plantago major L.",14
+1,"Plantago rugelii Decne.",2
+1,"Platanus hispanica Ten.",1
+1,"Platanus occidentalis L.",4
+1,"Pleurozium schreberi Mitten, 1869",1
+1,"Poa annua L.",3
+1,"Poa compressa L.",7
+1,"Poa palustris L.",5
+1,"Poa pratensis L.",7
+1,"Poales",1
+1,"Podophyllum peltatum L.",13
+1,"Polygonum aviculare L.",3
+1,"Polygonum convolvulus L.",2
+1,"Polygonum cuspidatum Sieb. & Zucc.",3
+1,"Polygonum L.",2
+1,"Polygonum lapathifolium L.",1
+1,"Polygonum lapathifolium subsp. lapathifolium",9
+1,"Polygonum persicaria L.",2
+1,"Polygonum scandens L.",1
+1,"Polystichum acrostichoides (Michx.) Schott",1
+1,"Populus ×rouleauiana B.Boivin",5
+1,"Populus alba L.",12
+1,"Populus balsamifera L.",5
+1,"Populus deltoides W.Bartram ex Marshall",24
+1,"Populus grandidentata Michx.",2
+1,"Populus jackii Sarg.",6
+1,"Populus nigra L.",2
+1,"Populus nigra var. italica Du Roi",3
+1,"Populus tremuloides Michx.",5
+1,"Portulaca grandiflora Hook.",2
+1,"Portulaca oleracea L.",7
+1,"Potamogeton gramineus L.",2
+1,"Potamogeton pectinatus L.",4
+1,"Potamogeton pusillus L.",1
+1,"Potamogeton richardsonii Rydb.",2
+1,"Potentilla anserina L.",2
+1,"Potentilla argentea L.",3
+1,"Potentilla indica (Andrews) T.Wolf",3
+1,"Potentilla intermedia L.",2
+1,"Potentilla norvegica L.",1
+1,"Potentilla paradoxa Nutt.",6
+1,"Potentilla recta L.",9
+1,"Preissia Corda",1
+1,"Prunella vulgaris L.",4
+1,"Prunus americana Marshall",2
+1,"Prunus avium (L.) L.",1
+1,"Prunus persica Stokes",1
+1,"Prunus serotina Ehrh.",5
+1,"Prunus serrulata Lindl.",1
+1,"Prunus spinosa L.",1
+1,"Prunus tomentosa Thunb.",1
+1,"Prunus virginiana L.",15
+1,"Ptychostomum pseudotriquetrum (Hedw.) J.R.Spence & H.P.Ramsay ex Holyoak & N.Pedersen",1
+1,"Puccinellia distans Parl.",1
+1,"Pulmonaria officinalis L.",3
+1,"Puschkinia scilloides Adams",2
+1,"Pycnanthemum incanum (L.) Michx.",1
+1,"Pycnanthemum virginianum (L.) B.L.Rob. & Fernald",2
+1,"Pyrus calleryana Decne.",1
+1,"Pyrus communis L.",1
+1,"Pyrus malus L.",1
+1,"Quercus alba L.",2
+1,"Quercus macrocarpa Michx.",3
+1,"Quercus robur L.",3
+1,"Quercus robur var. fastigiata (Lam.) Spach",1
+1,"Quercus rubra L.",9
+1,"Quercus velutina Lam.",1
+1,"Ranunculus abortivus L.",2
+1,"Ranunculus acris L.",8
+1,"Ranunculus aquatilis L.",1
+1,"Ranunculus repens L.",2
+1,"Ranunculus sceleratus L.",5
+1,"Raphanus sativus L.",2
+1,"Ratibida columnifera Wooton & Standl.",1
+1,"Ratibida pinnata Barnh.",3
+1,"Reynoutria japonica Houtt.",24
+1,"Rhamnus cathartica L.",16
+1,"Rhus aromatica Aiton",10
+1,"Rhus glabra L.",3
+1,"Rhus L.",3
+1,"Rhus typhina L.",56
+1,"Ribes americanum Mill.",1
+1,"Ribes aureum Pursh",3
+1,"Ribes cynosbati L.",1
+1,"Ribes rubrum L.",3
+1,"Robinia hispida L.",4
+1,"Robinia L.",3
+1,"Robinia pseudoacacia L.",17
+1,"Rorippa islandica var. hispida (Desvaux) Butters & Abbe",1
+1,"Rorippa palustris (L.) Besser",3
+1,"Rorippa palustris subsp. hispida (Desv.) Jonsell",4
+1,"Rorippa palustris var. hispida (Desv.) Rydb.",4
+1,"Rosa blanda Ait.",1
+1,"Rosa L.",20
+1,"Rosa multiflora Thunb.",2
+1,"Rosa rugosa Thunb.",7
+1,"Rosa virginiana J.Herrmann",1
+1,"Rubus idaeus L.",1
+1,"Rubus idaeus subsp. strigosus (Michx.) Focke",1
+1,"Rubus L.",3
+1,"Rubus occidentalis L.",2
+1,"Rubus odoratus L.",25
+1,"Rubus setosus Bigelow",3
+1,"Rubus strigosus Michx.",1
+1,"Rudbeckia hirta L.",24
+1,"Rudbeckia laciniata L.",4
+1,"Rudbeckia triloba L.",3
+1,"Rumex crispus L.",5
+1,"Rumex obtusifolius L.",2
+1,"Rumex patientia L.",2
+1,"Sagina japonica (Sw. ex Steud.) Ohwi",3
+1,"Salix alba L.",5
+1,"Salix amygdaloides Andersson",7
+1,"Salix babylonica L.",2
+1,"Salix bebbiana Sarg.",4
+1,"Salix cordata Muhl.",1
+1,"Salix cordata var. rigida (Muhl.) Andersson",1
+1,"Salix discolor Muhl.",7
+1,"Salix eriocephala Michx.",7
+1,"Salix exigua Nutt.",18
+1,"Salix fragilis L.",15
+1,"Salix interior Rowlee",4
+1,"Salix L.",1
+1,"Salix lucida Muhl.",3
+1,"Salix nigra Marshall",4
+1,"Salix sepulcralis Simonk.",1
+1,"Salsola tragus L.",7
+1,"Salvia reflexa Hornem.",1
+1,"Sambucus canadensis L.",7
+1,"Sambucus racemosa L.",4
+1,"Sambucus racemosa subsp. pubens (Michx.) House",2
+1,"Sambucus racemosa subsp. racemosa",1
+1,"Sanguinaria canadensis L.",6
+1,"Saponaria officinalis L.",8
+1,"Schoenoplectiella smithii var. smithii",1
+1,"Schoenoplectus acutus (Muhl.) Á.Löve & D.Löve",1
+1,"Schoenoplectus americanus (Pers.) Volkart ex Schinz & R.Keller",6
+1,"Schoenoplectus americanus Volkart",2
+1,"Schoenoplectus pungens (Vahl) Palla",1
+1,"Schoenoplectus tabernaemontani (C.C.Gmel.) Palla",1
+1,"Scilla forbesii (Baker) Speta",2
+1,"Scilla luciliae (Boiss.) Speta",1
+1,"Scilla siberica Andrews",27
+1,"Scilla siberica Haw.",1
+1,"Scirpus cyperinus Kunth",1
+1,"Scirpus L.",1
+1,"Scleria verticillata Muhl. ex Willd.",3
+1,"Scutellaria galericulata L.",7
+1,"Scutellaria lateriflora L.",1
+1,"Securigera varia (L.) Lassen",12
+1,"Sedum acre L.",14
+1,"Sedum sarmentosum Bunge",1
+1,"Sedum sexangulare L.",1
+1,"Senecio viscosus L.",4
+1,"Senecio vulgaris L.",11
+1,"Setaria Beauv.",3
+1,"Setaria faberi R.A.W.Herrm.",6
+1,"Setaria italica P.Beauv.",1
+1,"Setaria pumila (Poir.) Roem. & Schult.",1
+1,"Setaria viridis (L.) P.Beauv.",5
+1,"Sicyos angulata Berg.",1
+1,"Sicyos angulatus L.",1
+1,"Silene antirrhina L.",2
+1,"Silene L.",2
+1,"Silene latifolia Poir.",11
+1,"Silene vulgaris (Moench) Garcke",8
+1,"Silphium perfoliatum L.",20
+1,"Sinapis arvensis L.",3
+1,"Sisymbrium altissimum L.",4
+1,"Sisyrinchium montanum Greene",1
+1,"Sisyrinchium mucronatum Michx.",3
+1,"Solanum dulcamara L.",29
+1,"Solanum emulans Raf.",7
+1,"Solanum lycopersicum L.",3
+1,"Solanum ptycanthum Dunal",1
+1,"Solidago altissima L.",1
+1,"Solidago canadensis L.",10
+1,"Solidago flexicaulis L.",5
+1,"Solidago gigantea Aiton",4
+1,"Solidago hispida Muhl. ex Willd.",1
+1,"Solidago hispida var. hispida",1
+1,"Solidago juncea Ait.",4
+1,"Solidago L.",1
+1,"Solidago nemoralis Ait.",1
+1,"Solidago nemoralis subsp. nemoralis",1
+1,"Solidago nemoralis var. nemoralis",1
+1,"Solidago patula Muhl.",1
+1,"Sonchus arvensis L.",7
+1,"Sonchus asper Hill",4
+1,"Sonchus oleraceus L.",5
+1,"Sorbaria sorbifolia (L.) A.Braun",1
+1,"Sorbus aucuparia L.",4
+1,"Sorbus aucuparia var. pendula G.Kirchn.",1
+1,"Sorbus hybrida (L.) L.",1
+1,"Sorbus intermedia (Ehrh.) Pers.",10
+1,"Sorbus L.",2
+1,"Sorghastrum nutans (L.) Nash",2
+1,"Sparganium eurycarpum Engelm.",4
+1,"Spartina pectinata Bosc ex Link",1
+1,"Spergularia marina (L.) Besser",4
+1,"Sphenopholis intermedia Rydb.",1
+1,"Spiraea thunbergii Siebold ex Blume",4
+1,"Spiranthes cernua (L.) Rich.",2
+1,"Spiranthes magnicamporum Sheviak",2
+1,"Spirodela polyrhiza (L.) Schleid.",2
+1,"Sporobolus cryptandrus A.Gray",7
+1,"Sporobolus michauxianus (Hitchc.) P.M.Peterson & Saarela",1
+1,"Sporobolus neglectus Nash",1
+1,"Stachys byzantina K.Koch",1
+1,"Stachys palustris L.",1
+1,"Stachys palustris subsp. palustris",1
+1,"Staphylea trifolia L.",3
+1,"Stellaria media (L.) Vill.",1
+1,"Stylophorum diphyllum Nutt.",1
+1,"Symphoricarpos albus (L.) C.Koch",4
+1,"Symphyotrichum amethystinum (Nutt.) G.L.Nesom",1
+1,"Symphyotrichum ciliatum (Ledeb.) G.L.Nesom",1
+1,"Symphyotrichum cordifolium (L.) G.L.Nesom",1
+1,"Symphyotrichum dumosum (L.) G.L.Nesom",1
+1,"Symphyotrichum ericoides (L.) G.L.Nesom",1
+1,"Symphyotrichum lanceolatum (Willd.) G.L.Nesom",2
+1,"Symphyotrichum novae-angliae (L.) G.L.Nesom",25
+1,"Symphyotrichum pilosum (Willd.) G.L.Nesom",1
+1,"Symphyotrichum pilosum var. pilosum",1
+1,"Symphyotrichum puniceum (L.) Á.Löve & D.Löve",1
+1,"Symphytum officinale L.",1
+1,"Symplocarpus foetidus (L.) Salisb. ex W.P.C.Barton",3
+1,"Syntrichia ruralis Weber & D.Mohr, 1803",1
+1,"Syringa L.",4
+1,"Syringa reticulata (Blume) H.Hara",1
+1,"Syringa vulgaris L.",4
+1,"Tanacetum parthenium Sch.Bip.",2
+1,"Tanacetum vulgare L.",38
+1,"Taraxacum erythrospermum Andrz. ex Besser",1
+1,"Taraxacum officinale F.H.Wigg.",15
+1,"Tarenaya hassleriana (Chodat) Iltis",2
+1,"Taxus baccata L.",1
+1,"Taxus cuspidata Siebold & Zucc.",1
+1,"Tetradium Lour.",1
+1,"Thalictrum pubescens Pursh",1
+1,"Thlaspi arvense L.",4
+1,"Thuja occidentalis L.",15
+1,"Tilia americana L.",8
+1,"Tilia cordata Mill.",4
+1,"Tilia vulgaris Hayne",1
+1,"Torilis japonica DC.",1
+1,"Toxicodendron radicans (L.) Kuntze",2
+1,"Trifolium hybridum L.",10
+1,"Trifolium incarnatum L.",11
+1,"Trifolium pratense L.",12
+1,"Trifolium repens L.",17
+1,"Trifolium resupinatum L.",4
+1,"Triglochin maritima L.",1
+1,"Trillium erectum L.",1
+1,"Trillium grandiflorum Salisb.",4
+1,"Tripleurospermum inodorum (L.) Sch.Bip.",1
+1,"Tsuga canadensis Carrière",5
+1,"Tussilago farfara L.",20
+1,"Typha glauca Godr.",4
+1,"Typha latifolia L.",3
+1,"Ulmus americana L.",7
+1,"Ulmus carpinifolia Gled.",1
+1,"Ulmus glabra Huds.",9
+1,"Ulmus glabra var. atropurpurea (Späh) Rehder",1
+1,"Ulmus glabra var. crispa Loudon",1
+1,"Ulmus pumila L.",9
+1,"Ulmus rubra Muhl.",4
+1,"Ulmus thomasii Sarg.",1
+1,"Urtica dioica L.",14
+1,"Urtica dioica subsp. dioica",1
+1,"Utricularia macrorhiza J.Le Conte",1
+1,"Utricularia minor L.",1
+1,"Utricularia vulgaris L.",1
+1,"Uvularia grandiflora Sm.",3
+1,"Vaccinium pallidum Ait.",1
+1,"Valeriana officinalis L.",1
+1,"Verbascum thapsus L.",13
+1,"Verbena hastata L.",11
+1,"Verbena urticifolia L.",1
+1,"Veronica anagallis-aquatica L.",2
+1,"Veronica longifolia L.",1
+1,"Viburnum acerifolium L.",3
+1,"Viburnum lantana L.",6
+1,"Viburnum lentago L.",11
+1,"Viburnum opulus L.",15
+1,"Viburnum opulus var. opulus",1
+1,"Viburnum plicatum Thunb.",1
+1,"Viburnum rafinesquianum Schult.",1
+1,"Vicia cracca L.",19
+1,"Vicia sativa L.",1
+1,"Vicia villosa Roth",1
+1,"Vinca minor L.",9
+1,"Vincetoxicum nigrum Moench",1
+1,"Vincetoxicum rossicum (Kleop.) Barbar.",17
+1,"Viola arvensis Murray",1
+1,"Viola L.",1
+1,"Viola odorata L.",1
+1,"Viola sororia Willd.",2
+1,"Viola tricolor L.",1
+1,"Vitis riparia Michx.",10
+1,"Vitis vinifera L.",1
+1,"Xanthium strumarium L.",6
+1,"Zizia aurea W.D.J.Koch",5
+2,"Acer freemanii A.E.Murray",1
+2,"Acer negundo L.",5
+2,"Acer platanoides L.",1
+2,"Acer rubrum L.",1
+2,"Acer saccharinum L.",1
+2,"Acer saccharum Marshall",5
+2,"Achillea millefolium L.",2
+2,"Aegopodium podagraria L.",1
+2,"Alisma subcordatum Raf.",2
+2,"Alliaria petiolata (M.Bieb.) Cavara & Grande",2
+2,"Allium schoenoprasum L.",1
+2,"Allium tuberosum Rottl. ex Spreng.",1
+2,"Alnus incana (L.) Moench",2
+2,"Amaranthus powellii S.Watson",1
+2,"Anemonastrum canadense (L.) Mosyakin",1
+2,"Aralia nudicaulis L.",1
+2,"Arctium lappa L.",1
+2,"Arctium minus Bernh.",1
+2,"Argentina anserina Rydb.",1
+2,"Arisaema triphyllum (L.) Schott",1
+2,"Aronia melanocarpa Nutt. ex Elliott",1
+2,"Artemisia biennis Willd.",1
+2,"Asarum canadense L.",1
+2,"Asclepias incarnata L.",1
+2,"Asclepias syriaca L.",3
+2,"Aster L.",3
+2,"Aster novae-angliae L.",2
+2,"Aster pratensis Rafin.",1
+2,"Aster umbellatus Mill.",1
+2,"Barbula fallax Hedw.",1
+2,"Bidens cernua L.",2
+2,"Bromus ciliatus L.",1
+2,"Bromus inermis Leyss.",1
+2,"Calamagrostis canadensis (Michx.) P.Beauv.",1
+2,"Caltha palustris L.",1
+2,"Calystegia sepium R.Br.",1
+2,"Cardamine diphylla (Michx.) Alph.Wood",1
+2,"Carex bebbii (L.H.Bailey) Olney ex Fernald",1
+2,"Carex blanda Dewey",2
+2,"Carex cristatella Britton",2
+2,"Carex deweyana Schwein.",1
+2,"Carex disperma Dewey",1
+2,"Carex granularis Muhl. ex Willd.",2
+2,"Carex interior L.H.Bailey",2
+2,"Carex L.",4
+2,"Carex lacustris Willd.",7
+2,"Carex pedunculata Muhl. ex Willd.",1
+2,"Carex rostrata Muhl. ex Willd.",1
+2,"Carex rostrata Stokes",1
+2,"Carex spicata Huds.",1
+2,"Carex stipata Muhl. ex Willd.",3
+2,"Carex stricta Lam.",3
+2,"Carex trichocarpa Muhl. ex Schkuhr",1
+2,"Carex trichocarpa Muhl. ex Willd.",2
+2,"Carex utriculata Boott",2
+2,"Carex vulpinoidea Michx.",4
+2,"Carya cordiformis (Wangenh.) K.Koch",1
+2,"Centaurium pulchellum (Sw.) Druce",1
+2,"Cephalanthus occidentalis L.",1
+2,"Chenopodium album L.",1
+2,"Cichorium intybus L.",7
+2,"Cicuta maculata L.",1
+2,"Cirsium vulgare (Savi) Ten.",3
+2,"Claytonia L.",1
+2,"Convolvulus arvensis L.",1
+2,"Coptis trifolia Salisb.",1
+2,"Corallorhiza trifida Châtel.",1
+2,"Cornus alternifolia L.f.",1
+2,"Cornus foemina Mill.",1
+2,"Cornus racemosa Lam.",1
+2,"Cornus sericea L.",1
+2,"Cornus stolonifera Michx.",2
+2,"Crataegus pedicellata Sarg.",1
+2,"Cynanchum rossicum Kleop.",2
+2,"Cynoglossum officinale L.",1
+2,"Cypripedium calceolus L.",1
+2,"Cypripedium reginae Walter",2
+2,"Cystopteris fragilis (L.) Bernh.",2
+2,"Daucus carota L.",3
+2,"Digitaria sanguinalis (L.) Scop.",1
+2,"Diplotaxis tenuifolia (L.) DC.",4
+2,"Dipsacus L.",4
+2,"Dryopteris cristata (L) A.Gray",1
+2,"Echinocystis lobata Torr. & A.Gray",1
+2,"Echinops sphaerocephalus L.",1
+2,"Echium vulgare L.",1
+2,"Eleocharis erythropoda Steud.",2
+2,"Epilobium ciliatum Raf.",1
+2,"Equisetum arvense L.",1
+2,"Equisetum fluviatile L.",1
+2,"Equisetum palustre L.",1
+2,"Erigeron strigosus Muhl. ex Willd.",1
+2,"Erythronium americanum Ker Gawl.",2
+2,"Eupatorium maculatum L.",1
+2,"Eupatorium rugosum Houtt.",1
+2,"Euphorbia cyparissias L.",3
+2,"Eurybia macrophylla Cass.",1
+2,"Euthamia graminifolia (L.) Nutt.",1
+2,"Fagus grandifolia Ehrh.",2
+2,"Festuca L.",1
+2,"Galium asprellum Michx.",1
+2,"Geranium robertianum L.",4
+2,"Glechoma hederacea L.",1
+2,"Glyceria grandis S.Watson",4
+2,"Glyceria striata (Lam.) Hitchc.",2
+2,"Hackelia virginiana I.M.Johnst.",1
+2,"Hemerocallis fulva L.",1
+2,"Hepatica acutiloba DC.",2
+2,"Hesperis matronalis L.",2
+2,"Hordeum jubatum L.",1
+2,"Hydrocotyle americana L.",1
+2,"Hypericum perforatum L.",1
+2,"Impatiens capensis Meerb.",1
+2,"Inula helenium L.",1
+2,"Juglans nigra L.",1
+2,"Juncus nodosus L.",1
+2,"Larix laricina (Du Roi) K.Koch",1
+2,"Leonurus cardiaca L.",2
+2,"Leucanthemum vulgare Lam.",1
+2,"Liatris cylindracea Michx.",3
+2,"Liatris spicata Willd.",1
+2,"Linaria vulgaris Mill.",2
+2,"Lobelia siphilitica L.",2
+2,"Lonicera bella Zabel.",3
+2,"Lonicera tatarica L.",1
+2,"Lotus corniculatus L.",1
+2,"Lycopus uniflorus Michx.",1
+2,"Lysimachia thyrsiflora L.",1
+2,"Lythrum salicaria L.",1
+2,"Magnoliophyta",15
+2,"Maianthemum racemosum Link",1
+2,"Maianthemum stellatum Link",1
+2,"Malva neglecta Wallr",1
+2,"Marchantia polymorpha L.",3
+2,"Medicago lupulina L.",1
+2,"Menispermum canadense L.",1
+2,"Mimulus ringens L.",1
+2,"Mitella nuda L.",1
+2,"Nepeta cataria L.",1
+2,"Oenothera parviflora L.",1
+2,"Panicum capillare L.",4
+2,"Pastinaca sativa L.",1
+2,"Phlox subulata L.",1
+2,"Phragmites australis subsp. australis",1
+2,"Physocarpus opulifolius (L.) Maxim.",2
+2,"Pilea fontana Rydb.",1
+2,"Pinus strobus L.",1
+2,"Plantago lanceolata L.",1
+2,"Plantago major L.",1
+2,"Plantago rugelii Decne.",1
+2,"Poa palustris L.",1
+2,"Poa pratensis L.",1
+2,"Podophyllum peltatum L.",1
+2,"Polygonum lapathifolium subsp. lapathifolium",1
+2,"Potentilla argentea L.",1
+2,"Potentilla norvegica L.",1
+2,"Prunella vulgaris L.",1
+2,"Prunus cerasifera Ehrh.",1
+2,"Prunus virginiana L.",4
+2,"Pulmonaria officinalis L.",1
+2,"Quercus macrocarpa Michx.",2
+2,"Ranunculus acris L.",1
+2,"Ranunculus sceleratus L.",1
+2,"Rhamnus cathartica L.",6
+2,"Rhamnus L.",1
+2,"Rhus typhina L.",9
+2,"Ribes americanum Mill.",1
+2,"Ribes hirtellum Michx.",1
+2,"Ribes triste Pall.",1
+2,"Rosa L.",2
+2,"Rubus occidentalis L.",1
+2,"Rubus odoratus L.",2
+2,"Rubus pubescens Raf.",1
+2,"Rubus strigosus Michx.",1
+2,"Rudbeckia hirta L.",1
+2,"Salix bebbiana Sarg.",1
+2,"Salix discolor Muhl.",1
+2,"Salix eriocephala Michx.",1
+2,"Sambucus canadensis L.",1
+2,"Sanguinaria canadensis L.",3
+2,"Saponaria officinalis L.",1
+2,"Schistidium apocarpum Bruch & W.P.Schimper, 1845",1
+2,"Scilla siberica Andrews",3
+2,"Scirpus atrovirens Willd.",1
+2,"Setaria glauca (L.) P.Beauv.",1
+2,"Setaria viridis (L.) P.Beauv.",1
+2,"Solanum dulcamara L.",5
+2,"Solidago caesia L.",3
+2,"Solidago canadensis L.",3
+2,"Solidago patula Muhl.",1
+2,"Solidago rugosa Mill.",2
+2,"Sonchus arvensis L.",1
+2,"Symphyotrichum cordifolium (L.) G.L.Nesom",1
+2,"Symphyotrichum novae-angliae (L.) G.L.Nesom",2
+2,"Syringa vulgaris L.",1
+2,"Taraxacum officinale F.H.Wigg.",3
+2,"Taxus baccata L.",1
+2,"Thalictrum pubescens Pursh",3
+2,"Thelypteris palustris Schott",2
+2,"Thlaspi arvense L.",1
+2,"Thuja occidentalis L.",2
+2,"Tilia cordata Mill.",2
+2,"Tradescantia virginiana L.",1
+2,"Trifolium pratense L.",2
+2,"Trifolium repens L.",1
+2,"Tsuga canadensis Carrière",1
+2,"Tussilago farfara L.",2
+2,"Ulmus americana L.",1
+2,"Urtica dioica L.",1
+2,"Verbascum thapsus L.",5
+2,"Viburnum acerifolium L.",1
+2,"Viburnum lentago L.",1
+2,"Viburnum opulus L.",2
+2,"Vicia cracca L.",2
+2,"Vincetoxicum rossicum (Kleop.) Barbar.",2
+2,"Viola blanda Willd.",1
+2,"Vitis riparia Michx.",3
+2,"Xanthium strumarium L.",1
+3,"Abies balsamea Mill.",1
+3,"Acer freemanii A.E.Murray",1
+3,"Acer negundo L.",1
+3,"Acer nigrum F.Michx.",1
+3,"Acer platanoides L.",1
+3,"Acer rubrum L.",1
+3,"Acer saccharinum L.",1
+3,"Acer spicatum Lam.",1
+3,"Acorus americanus (Raf.) Raf.",1
+3,"Actaea rubra (Aiton) Willd.",1
+3,"Adiantum pedatum L.",1
+3,"Agrimonia gryposepala Wallr.",2
+3,"Agrimonia striata Michx.",1
+3,"Agrostis gigantea Roth",1
+3,"Alliaria petiolata (M.Bieb.) Cavara & Grande",2
+3,"Allium tricoccum Aiton",1
+3,"Alopecurus aequalis Sobol.",1
+3,"Amelanchier arborea (Michx.f.) Fernald",1
+3,"Anemone canadensis L.",1
+3,"Anemone cylindrica A.Gray",2
+3,"Anemone quinquefolia L.",1
+3,"Angelica atropurpurea L.",1
+3,"Anthriscus sylvestris (L.) Hoffm.",1
+3,"Aquilegia canadensis L.",1
+3,"Arabis glabra (L.) Bernh.",1
+3,"Aralia nudicaulis L.",1
+3,"Arceuthobium pusillum Peck",1
+3,"Arctium minus Bernh.",1
+3,"Arethusa bulbosa L.",2
+3,"Arisaema triphyllum (L.) Schott",3
+3,"Aronia melanocarpa Nutt. ex Elliott",2
+3,"Artemisia vulgaris L.",1
+3,"Asarum canadense L.",2
+3,"Asclepias syriaca L.",1
+3,"Aster L.",2
+3,"Aster lanceolatus subsp. lanceolatus",1
+3,"Aster lateriflorus (L.) Britt.",1
+3,"Aster macrophyllus L.",1
+3,"Betula alleghaniensis Britton",1
+3,"Botrychium virginianum (L.) Sw.",2
+3,"Brachythecium rutabulum W.P.Schimper, 1853",1
+3,"Bromus inermis Leyss.",1
+3,"Calla palustris L.",1
+3,"Calopogon tuberosus (L.) Britton, Sterns & Poggenb.",3
+3,"Calopogon tuberosus var. tuberosus",1
+3,"Calystegia sepium R.Br.",1
+3,"Camelina microcarpa Andrz.",1
+3,"Campanula aparinoides Pursh",1
+3,"Cardamine diphylla (Michx.) Alph.Wood",2
+3,"Carex arctata Boott",1
+3,"Carex canescens L.",1
+3,"Carex communis L.H.Bailey",1
+3,"Carex deweyana Schwein.",2
+3,"Carex intumescens Rudge",1
+3,"Carex lasiocarpa Ehrh.",1
+3,"Carex lasiocarpa var. americana Fernald",2
+3,"Carex leptalea subsp. leptalea",1
+3,"Carex magellanica Lam.",1
+3,"Carex magellanica subsp. irrigua (Wahlenb.) Hiitonen",1
+3,"Carex muhlenbergii Kunth ex Boott",1
+3,"Carex pauciflora Lightf.",1
+3,"Carex paupercula Michx.",1
+3,"Carex peckii Howe",2
+3,"Carex pedunculata Muhl. ex Willd.",2
+3,"Carex pensylvanica Lam.",2
+3,"Carex sprengelii Dewey ex Spreng.",3
+3,"Carex trisperma Dewey",2
+3,"Carex tuckermanii Dewey",1
+3,"Carex vesicaria L.",1
+3,"Carex vulpinoidea Michx.",1
+3,"Carya cordiformis (Wangenh.) C.Koch",1
+3,"Caulophyllum giganteum (Farw.) Loconte & W.H.Blackwell",4
+3,"Caulophyllum thalictroides (L.) Michx.",2
+3,"Chamaedaphne calyculata Moench",5
+3,"Chenopodium capitatum (L.) Ambrosi",1
+3,"Chenopodium simplex (Torr.) Raf.",1
+3,"Chimaphila umbellata (L.) W.P.C.Barton",1
+3,"Chrysanthemum leucanthemum L.",1
+3,"Chrysosplenium americanum Schwein.",1
+3,"Cicuta bulbifera L.",1
+3,"Circaea canadensis (L.) Hill",1
+3,"Cirsium vulgare (Savi) Ten.",1
+3,"Claytonia caroliniana Michx.",1
+3,"Claytonia virginica L.",4
+3,"Clematis paniculata Thunb.",1
+3,"Clematis virginiana L.",1
+3,"Cleome L.",1
+3,"Coptis trifolia Salisb.",2
+3,"Corydalis aurea Willd.",1
+3,"Cryptotaenia canadensis DC.",1
+3,"Cypripedium acaule Ait.",1
+3,"Cypripedium calceolus L.",2
+3,"Cypripedium parviflorum Salisb.",3
+3,"Cystopteris bulbifera (L.) Bernh.",1
+3,"Dicentra canadensis Walp.",2
+3,"Dicentra cucullaria Bernh.",1
+3,"Diervilla lonicera Mill.",3
+3,"Dirca palustris L.",2
+3,"Dryopteris carthusiana (Vill.) H.P.Fuchs",2
+3,"Dryopteris cristata (L) A.Gray",3
+3,"Dryopteris marginalis (L.) A.Gray",1
+3,"Dulichium arundinaceum Britton",1
+3,"Echinocystis lobata Torr. & A.Gray",2
+3,"Eleocharis erythropoda Steud.",1
+3,"Epilobium coloratum Muhl. ex Wild.",1
+3,"Epipactis helleborine (L.) Crantz",1
+3,"Equisetum arvense L.",1
+3,"Equisetum fluviatile L.",1
+3,"Equisetum hyemale L.",2
+3,"Equisetum hyemale subsp. affine (Engelm.) Calder & Roy L.Taylor",1
+3,"Equisetum scirpoides Michx.",2
+3,"Erigeron philadelphicus L.",1
+3,"Eriophorum vaginatum L.",4
+3,"Eriophorum virginicum L.",3
+3,"Erythronium americanum Ker Gawl.",2
+3,"Eupatorium maculatum L.",1
+3,"Eupatorium rugosum Houtt.",1
+3,"Fagus grandifolia Ehrh.",1
+3,"Galium aparine L.",1
+3,"Galium boreale L.",1
+3,"Galium tinctorium L.",1
+3,"Galium triflorum Michx.",2
+3,"Galium verum L.",2
+3,"Gaura biennis L.",1
+3,"Gaylussacia baccata K.Koch",2
+3,"Geranium robertianum L.",1
+3,"Geum aleppicum Jacq.",1
+3,"Glechoma hederacea L.",2
+3,"Glyceria grandis S.Watson",1
+3,"Goodyera pubescens R.Br.",1
+3,"Goodyera tesselata Lodd.",1
+3,"Gymnocarpium dryopteris Newm.",1
+3,"Hepatica acutiloba DC.",4
+3,"Hepatica americana (DC.) Ker-Gawl.",1
+3,"Hieracium aurantiacum L.",1
+3,"Hieracium piloselloides Vill.",1
+3,"Hieracium praealtum Vill. ex Gochnat",1
+3,"Huperzia lucidula (Michx.) Trevis.",1
+3,"Hydrocotyle americana L.",1
+3,"Ilex verticillata A.Gray",1
+3,"Iris versicolor L.",3
+3,"Juglans cinerea L.",2
+3,"Juncus nodosus L.",1
+3,"Juniperus virginiana L.",2
+3,"Kalmia polifolia Wangenh.",7
+3,"Lactuca canadensis L.",2
+3,"Ledum groenlandicum Oeder",5
+3,"Linaria vulgaris Mill.",1
+3,"Linnaea borealis L.",2
+3,"Liparis loeselii (L.) Rich.",1
+3,"Lobelia inflata L.",1
+3,"Lobelia siphilitica L.",1
+3,"Lonicera bella Zabel.",1
+3,"Lonicera canadensis Bartr. ex Marshall",1
+3,"Lonicera dioica L.",1
+3,"Lycopodium annotinum L.",1
+3,"Lycopodium dendroideum Michx.",1
+3,"Lycopodium digitatum Dillen. ex A.Br.",1
+3,"Lycopus uniflorus Michx.",2
+3,"Lysimachia ciliata L.",1
+3,"Lysimachia thyrsiflora L.",1
+3,"Lythrum salicaria L.",1
+3,"Maianthemum canadense Desf.",2
+3,"Maianthemum stellatum Link",1
+3,"Maianthemum trifolium (L.) Sloboda.",1
+3,"Malus pumila Mill.",1
+3,"Malva moschata L.",1
+3,"Malva neglecta Wallr",1
+3,"Malva sylvestris L.",1
+3,"Medeola virginiana L.",1
+3,"Mentha arvensis L.",1
+3,"Mitchella repens L.",1
+3,"Mitella diphylla L.",1
+3,"Mitella nuda L.",1
+3,"Monarda fistulosa L.",1
+3,"Monotropa hypopitys L.",2
+3,"Monotropa uniflora L.",3
+3,"Mycelis muralis (L.) Dum.",1
+3,"Myriophyllum verticillatum L.",1
+3,"Nemopanthus mucronata (L.) Trel.",4
+3,"Oenothera parviflora L.",1
+3,"Oenothera perennis L.",1
+3,"Onoclea sensibilis L.",1
+3,"Orthilia secunda (L.) House",3
+3,"Osmunda cinnamomea L.",1
+3,"Osmunda claytoniana L.",1
+3,"Ostrya virginiana K.Koch",1
+3,"Panicum latifolium L.",1
+3,"Penthorum sedoides L.",1
+3,"Persicaria maculosa Gray",1
+3,"Petasites frigidus (L.) R.E.Fr.",1
+3,"Phegopteris connectilis (Michx.) Watt",1
+3,"Phleum pratense L.",1
+3,"Physalis heterophylla Nees",2
+3,"Picea abies (L.) H.Karst.",1
+3,"Picea glauca (Moench) Voss",2
+3,"Picea mariana Britton, Sterns & Poggenb.",2
+3,"Pilea pumila A.Gray",1
+3,"Pinus banksiana Lamb.",1
+3,"Pinus resinosa Aiton",1
+3,"Plantago lanceolata L.",2
+3,"Plantago major L.",1
+3,"Platanthera hookeri Lindl.",1
+3,"Podophyllum peltatum L.",3
+3,"Pogonia ophioglossoides (L.) Ker Gawl.",1
+3,"Polygala paucifolia Willd.",1
+3,"Polygonatum pubescens Pursh",1
+3,"Polygonum L.",2
+3,"Polystichum acrostichoides (Michx.) Schott",2
+3,"Populus tremuloides Michx.",1
+3,"Potamogeton foliosus Raf.",1
+3,"Potentilla anserina L.",1
+3,"Potentilla palustris (L.) Scop.",2
+3,"Prunella vulgaris L.",1
+3,"Prunus serotina Ehrh.",2
+3,"Pyrola asarifolia Michx.",1
+3,"Pyrola elliptica Nutt.",1
+3,"Quercus macrocarpa Michx.",1
+3,"Quercus rubra L.",1
+3,"Ranunculus recurvatus Poir.",2
+3,"Ranunculus repens L.",1
+3,"Rhododendron groenlandicum (Oeder) Kron & Judd",1
+3,"Rhus typhina L.",3
+3,"Ribes americanum Mill.",3
+3,"Ribes rubrum var. sativum Rchb.",1
+3,"Rosa blanda Ait.",2
+3,"Rubus idaeus L.",1
+3,"Rubus odoratus L.",3
+3,"Rubus pubescens Raf.",3
+3,"Rubus strigosus Michx.",1
+3,"Rudbeckia triloba L.",1
+3,"Salix alba L.",1
+3,"Salix bebbiana Sarg.",1
+3,"Salix discolor Muhl.",1
+3,"Salix lucida Muhl.",1
+3,"Salix pedicellaris Pursh",1
+3,"Sambucus canadensis L.",1
+3,"Sambucus racemosa L.",1
+3,"Sanguinaria canadensis L.",4
+3,"Saponaria officinalis L.",1
+3,"Sarracenia purpurea L.",6
+3,"Schistidium apocarpum Bruch & W.P.Schimper, 1845",1
+3,"Schizachne purpurascens Swallen",2
+3,"Scirpus atrocinctus Fernald",1
+3,"Scirpus cyperinus Kunth",1
+3,"Scirpus microcarpus J.Presl & C.Presl",1
+3,"Scutellaria galericulata L.",1
+3,"Silene vulgaris (Moench) Garcke",1
+3,"Solanum dulcamara L.",1
+3,"Solidago canadensis L.",1
+3,"Solidago flexicaulis L.",1
+3,"Solidago nemoralis Ait.",1
+3,"Solidago rugosa Mill.",1
+3,"Sonchus asper Hill",1
+3,"Sparganium emersum Rehm.",1
+3,"Spiranthes casei Catling & Cruise",2
+3,"Spiranthes cernua (L.) Rich.",2
+3,"Spiranthes lacera var. lacera",7
+3,"Spiranthes romanzoffiana Cham.",1
+3,"Sporobolus cryptandrus A.Gray",1
+3,"Stellaria L.",1
+3,"Symphyotrichum cordifolium (L.) G.L.Nesom",1
+3,"Taraxacum officinale F.H.Wigg.",2
+3,"Taxus canadensis Marshall",2
+3,"Thalictrum dioicum L.",4
+3,"Thalictrum pubescens Pursh",1
+3,"Thelypteris palustris var. pubescens (Lawson) Fern.",3
+3,"Thelypteris phegopteris (L.) Slosson",1
+3,"Thuja occidentalis L.",1
+3,"Tilia americana L.",1
+3,"Trillium erectum L.",3
+3,"Trillium grandiflorum Salisb.",6
+3,"Tsuga canadensis Carrière",2
+3,"Typha glauca Godr.",1
+3,"Utricularia intermedia Hayne",1
+3,"Uvularia grandiflora Sm.",1
+3,"Vaccinium macrocarpum Ait.",3
+3,"Vaccinium myrtilloides Michx.",3
+3,"Vaccinium oxycoccos L.",2
+3,"Verbena hastata L.",1
+3,"Veronica americana Schwein. ex Benth.",2
+3,"Veronica officinalis L.",2
+3,"Veronica serpyllifolia L.",1
+3,"Viburnum cassinoides L.",1
+3,"Viburnum rafinesquianum Schult.",2
+3,"Viola affinis Le Conte",1
+3,"Viola blanda Willd.",2
+3,"Viola canadensis var. canadensis",1
+3,"Viola macloskeyi subsp. pallens (Banks ex Gingins) M.S.Baker",1
+3,"Viola pubescens Ait.",1
+3,"Vitis riparia Michx.",2
+3,"Waldsteinia fragarioides (Michx.) Tratt.",2
+3,"Xanthium strumarium L.",1
+4,"Abies balsamea Mill.",1
+4,"Abutilon theophrasti Medik.",2
+4,"Agrostis gigantea Roth",1
+4,"Allium tricoccum var. tricoccum",1
+4,"Alnus incana subsp. rugosa (Du Roi) R.T.Clausen",1
+4,"Aronia melanocarpa Nutt. ex Elliott",1
+4,"Betula pumila L.",2
+4,"Betula pumila var. glandulifera Regel",1
+4,"Botrychium multifidum (S.G.Gmel.) Rupr.",1
+4,"Calamagrostis canadensis (Michx.) P.Beauv.",1
+4,"Calamagrostis stricta subsp. inexpansa (A.Gray) C.W.Greene",1
+4,"Calopogon tuberosus (L.) Britton, Sterns & Poggenb.",1
+4,"Carex disperma Dewey",1
+4,"Carex limosa L.",1
+4,"Carex lupulina Muhl. ex Willd.",2
+4,"Carex peckii Howe",1
+4,"Carex prairea Dewey",1
+4,"Carex projecta Mackenzie",1
+4,"Carex retrorsa Schwein.",1
+4,"Carex stricta Lam.",1
+4,"Carex trisperma Dewey",1
+4,"Carex tuckermanii Dewey",1
+4,"Carex vulpinoidea Michx.",1
+4,"Caulophyllum giganteum (Farw.) Loconte & W.H.Blackwell",1
+4,"Celastrus scandens L.",1
+4,"Chamaedaphne calyculata Moench",1
+4,"Chimaphila umbellata (L.) W.P.C.Barton",1
+4,"Cinna latifolia Griseb.",1
+4,"Cirsium vulgare (Savi) Ten.",1
+4,"Clintonia borealis Raf.",2
+4,"Coptis trifolia subsp. groenlandica (Oeder) Hulten",1
+4,"Cornus canadensis L.",1
+4,"Cornus stolonifera Michx.",1
+4,"Daucus carota L.",1
+4,"Dirca palustris L.",1
+4,"Dryopteris carthusiana (Vill.) H.P.Fuchs",1
+4,"Dryopteris cristata (L) A.Gray",1
+4,"Dryopteris intermedia A.Gray",1
+4,"Epilobium leptophyllum Raf.",1
+4,"Equisetum fluviatile L.",1
+4,"Erythronium americanum Ker Gawl.",1
+4,"Galium labradoricum Wiegand",1
+4,"Galium trifidum L.",1
+4,"Galium triflorum Michx.",1
+4,"Gentianopsis crinita (Froel.) Ma",1
+4,"Glyceria striata (Lam.) Hitchc.",1
+4,"Ilex verticillata A.Gray",1
+4,"Iris versicolor L.",1
+4,"Laportea canadensis Wedd.",1
+4,"Larix laricina (Du Roi) K.Koch",1
+4,"Ledum groenlandicum Oeder",1
+4,"Linnaea borealis L.",1
+4,"Linnaea borealis subsp. longiflora (Torr.) Piper & Beattie",1
+4,"Lonicera oblongifolia Hook.",1
+4,"Lycopodium clavatum L.",1
+4,"Lysimachia thyrsiflora L.",1
+4,"Maianthemum canadense Desf.",1
+4,"Maianthemum racemosum Link",1
+4,"Maianthemum trifolium (L.) Sloboda.",1
+4,"Monotropa uniflora L.",1
+4,"Najas flexilis Rostk. & Schmidt",1
+4,"Oryzopsis asperifolia Michx.",1
+4,"Osmunda cinnamomea L.",1
+4,"Osmunda regalis L.",1
+4,"Picea mariana Britton, Sterns & Poggenb.",1
+4,"Pinus banksiana Lamb.",1
+4,"Plantago major L.",1
+4,"Polygaloides paucifolia (Willd.) J.R.Abbott",1
+4,"Potentilla norvegica subsp. monspeliensis (L.) Aschers. & Graebn.",1
+4,"Prunella vulgaris L.",1
+4,"Ribes hirtellum Michx.",1
+4,"Rubus pubescens Raf.",1
+4,"Salix bebbiana Sarg.",1
+4,"Salix candida Fluegge ex Willd.",1
+4,"Salix discolor Muhl.",1
+4,"Salix petiolaris Sm.",1
+4,"Salix serissima Fernald",1
+4,"Sambucus racemosa subsp. pubens (Michx.) House",1
+4,"Saponaria officinalis L.",1
+4,"Sarracenia purpurea L.",1
+4,"Sceptridium multifidum (S.G.Gmel.) Nishida ex Tagawa",1
+4,"Schizachne purpurascens subsp. purpurascens",1
+4,"Scutellaria galericulata L.",1
+4,"Solidago rugosa subsp. rugosa",1
+4,"Solidago uliginosa Nutt.",1
+4,"Sphenopholis intermedia Rydb.",1
+4,"Thuja occidentalis L.",1
+4,"Tilia americana L.",1
+4,"Trientalis borealis subsp. borealis",1
+4,"Trillium erectum L.",1
+4,"Trillium grandiflorum Salisb.",1
+4,"Typha angustifolia L.",1
+4,"Vaccinium macrocarpum Ait.",1
+5,"Acer negundo L.",2
+5,"Acer platanoides L.",2
+5,"Acer saccharinum L.",1
+5,"Achillea millefolium L.",1
+5,"Alliaria petiolata (M.Bieb.) Cavara & Grande",2
+5,"Alnus glutinosa (L.) Gaertn.",2
+5,"Amphicarpaea bracteata (L.) Fernald",1
+5,"Anemonastrum canadense (L.) Mosyakin",2
+5,"Arisaema triphyllum (L.) Schott",1
+5,"Asclepias syriaca L.",3
+5,"Bolboschoenus fluviatilis (Torr.) Soják",2
+5,"Calystegia sepium R.Br.",1
+5,"Carex alopecoidea Tuckerm.",1
+5,"Carex blanda Dewey",2
+5,"Carex spicata Huds.",1
+5,"Carex sprengelii Dewey ex Spreng.",1
+5,"Chamaesyce maculata (L.) Small",1
+5,"Cicuta maculata L.",1
+5,"Circaea canadensis (L.) Hill",1
+5,"Cornus racemosa Lam.",1
+5,"Cornus sericea L.",2
+5,"Corydalis aurea Willd.",1
+5,"Cystopteris bulbifera (L.) Bernh.",1
+5,"Dactylis glomerata L.",1
+5,"Daucus carota L.",1
+5,"Dipsacus L.",1
+5,"Draba verna L.",1
+5,"Echinocystis lobata Torr. & A.Gray",1
+5,"Echium vulgare L.",2
+5,"Erigeron annuus Pers.",1
+5,"Erigeron philadelphicus L.",2
+5,"Erysimum cheiranthoides L.",2
+5,"Euphorbia L.",2
+5,"Eutrochium maculatum (L.) E.E.Lamont",1
+5,"Fagus grandifolia Ehrh.",1
+5,"Fraxinus pennsylvanica Marshall",1
+5,"Galium mollugo L.",1
+5,"Galium palustre L.",1
+5,"Galium tinctorium L.",1
+5,"Geranium robertianum L.",2
+5,"Geum canadense Jacq.",2
+5,"Geum urbanum L.",2
+5,"Glechoma hederacea L.",2
+5,"Glyceria septentrionalis Hitchc.",1
+5,"Hesperis matronalis L.",2
+5,"Hypericum perforatum L.",1
+5,"Impatiens capensis Meerb.",1
+5,"Iris pseudacorus L.",2
+5,"Juglans nigra L.",1
+5,"Juncus compressus Jacq.",2
+5,"Juncus nodosus L.",1
+5,"Juncus tenuis Willd.",1
+5,"Leersia oryzoides (L.) Sw.",1
+5,"Leonurus cardiaca L.",2
+5,"Leucanthemum vulgare Lam.",2
+5,"Lonicera minutiflora Zabel",1
+5,"Lotus corniculatus L.",3
+5,"Lycopus europaeus L.",2
+5,"Medicago lupulina L.",1
+5,"Melilotus albus Medik.",1
+5,"Monotropa uniflora L.",1
+5,"Nepeta cataria L.",2
+5,"Nymphaea odorata Aiton",1
+5,"Osmunda regalis L.",1
+5,"Parthenocissus inserta (A.Kerner) Fritsch",1
+5,"Phleum pratense L.",3
+5,"Physocarpus opulifolius (L.) Maxim.",2
+5,"Pilosella aurantiaca (L.) F.W.Schultz & Sch.Bip.",1
+5,"Plantago lanceolata L.",2
+5,"Plantago rugelii Decne.",2
+5,"Poa palustris L.",1
+5,"Poa pratensis L.",1
+5,"Potentilla recta L.",2
+5,"Prunus virginiana L.",1
+5,"Quercus rubra L.",1
+5,"Ranunculus acris L.",2
+5,"Ranunculus longirostris Godr.",1
+5,"Rhamnus cathartica L.",1
+5,"Rhus typhina L.",2
+5,"Rorippa palustris (L.) Besser",1
+5,"Rubus occidentalis L.",1
+5,"Rumex crispus L.",2
+5,"Salix euxina I.V.Belyaeva",1
+5,"Schoenoplectus acutus (Muhl.) Á.Löve & D.Löve",1
+5,"Silene latifolia Poir.",2
+5,"Silene vulgaris (Moench) Garcke",2
+5,"Solanum dulcamara L.",2
+5,"Solidago flexicaulis L.",1
+5,"Symphyotrichum novae-angliae (L.) G.L.Nesom",1
+5,"Thlaspi arvense L.",1
+5,"Tilia americana L.",1
+5,"Tragopogon dubius Scop.",2
+5,"Trifolium pratense L.",2
+5,"Trifolium repens L.",2
+5,"Trillium grandiflorum Salisb.",1
+5,"Tussilago farfara L.",2
+5,"Urtica dioica subsp. gracilis (Ait.) Seland.",1
+5,"Verbascum thapsus L.",3
+5,"Veronica arvensis L.",1
+5,"Viburnum opulus var. opulus",1
+5,"Vicia cracca L.",2
+5,"Vinca minor L.",2
+5,"Vincetoxicum rossicum (Kleop.) Barbar.",2
+5,"Vitis riparia Michx.",3
+5,"Xanthium strumarium L.",1
+6,"Actaea pachypoda Elliott",1
+6,"Actaea rubra (Aiton) Willd.",1
+6,"Adiantum pedatum L.",2
+6,"Alkekengi officinarum Moench",1
+6,"Allium tricoccum Aiton",3
+6,"Amblystegium varium (Hedw.) Lindb.",1
+6,"Ambrosia artemisiifolia L.",1
+6,"Apios americana Medik.",1
+6,"Aquilegia canadensis L.",1
+6,"Aralia nudicaulis L.",1
+6,"Aralia racemosa L.",1
+6,"Arisaema triphyllum (L.) Schott",2
+6,"Asclepias syriaca L.",3
+6,"Asplenium rhizophyllum L.",2
+6,"Asplenium scolopendrium L.",2
+6,"Aster urophyllus Lindl.",1
+6,"Bartonia virginica Britton, Sterns & Poggenb.",6
+6,"Bellis perennis L.",1
+6,"Botrychium multifidum (S.G.Gmel.) Rupr.",1
+6,"Brachythecium populeum W.P.Schimper, 1853",1
+6,"Brachythecium rivulare W.P.Schimper, 1853",1
+6,"Bryum pseudotriquetrum P.G.Gärtner, B.Meyer & Scherbius, 1802",1
+6,"Callicladium haldanianum H.Crum, 1971",1
+6,"Calliergon cordifolium Kindberg, 1894",1
+6,"Calliergonella lindbergii Hedenäs, 1990",1
+6,"Carex convoluta Mack.",1
+6,"Carex crinita var. gynandra (Schwein.) Schwein. & Torr.",1
+6,"Carex cristatella Britton",1
+6,"Carex lupulina Muhl. ex Willd.",1
+6,"Carex projecta Mackenzie",1
+6,"Carex richardsonii R.Br.",1
+6,"Carex spicata Huds.",2
+6,"Carex tuckermanii Dewey",1
+6,"Caulophyllum giganteum (Farw.) Loconte & W.H.Blackwell",3
+6,"Caulophyllum thalictroides (L.) Michx.",1
+6,"Centaurea jacea L.",1
+6,"Ceratodon purpureus Bridel, 1826",1
+6,"Ceratophyllum demersum L.",1
+6,"Chamaesyce glyptosperma (Engelm.) Small",1
+6,"Cichorium intybus L.",3
+6,"Cicuta maculata L.",1
+6,"Cirsium vulgare (Savi) Ten.",2
+6,"Clinopodium vulgare L.",1
+6,"Cyrto-hypnum minutulum (Hedw.) W.R.Buck & H.A.Crum",1
+6,"Daphne mezereum L.",1
+6,"Datura innoxia Mill.",1
+6,"Daucus carota L.",2
+6,"Dicranum viride Lindberg, 1863",2
+6,"Dryopteris intermedia A.Gray",1
+6,"Echium vulgare L.",1
+6,"Elymus hystrix L.",1
+6,"Encalypta procera Bruch, 1832",1
+6,"Entodon cladorrhizans (Hedw.) Müll.Hal.",1
+6,"Epipactis helleborine (L.) Crantz",2
+6,"Equisetum arvense L.",1
+6,"Equisetum variegatum Schleich.",1
+6,"Erythronium americanum Ker Gawl.",3
+6,"Eutrochium maculatum (L.) E.E.Lamont",1
+6,"Fissidens adianthoides Hedwig, 1801",1
+6,"Fissidens cristatus Wilson ex Mitt.",1
+6,"Fragaria vesca subsp. americana (Porter) Staudt",1
+6,"Frullania eboracensis Gottsche",2
+6,"Glechoma hederacea L.",1
+6,"Grimmia apocarpa var. stricta (Turner) Hook. & Taylor",1
+6,"Grimmia rivularis Brid.",1
+6,"Helianthus annuus L.",1
+6,"Hepatica acutiloba DC.",1
+6,"Hydrocharis morsus-ranae L.",1
+6,"Hydrophyllum virginianum L.",3
+6,"Impatiens capensis Meerb.",1
+6,"Iris pseudacorus L.",1
+6,"Juniperus communis L.",1
+6,"Laportea canadensis Wedd.",3
+6,"Lathyrus ochroleucus Hook.",1
+6,"Leonurus cardiaca L.",1
+6,"Leptodictyum riparium Warnstorf, 1906",3
+6,"Leskeella nervosa Loeske, 1903",1
+6,"Linaria vulgaris Mill.",1
+6,"Lotus corniculatus L.",1
+6,"Lythrum salicaria L.",1
+6,"Maianthemum racemosum Link",2
+6,"Malus pumila Mill.",1
+6,"Matteuccia struthiopteris (L.) Tod.",1
+6,"Mitella nuda L.",1
+6,"Mnium marginatum Palisot de Beauvois, 1805",1
+6,"Monarda fistulosa L.",1
+6,"Monotropa uniflora L.",2
+6,"Muscari armeniacum H.J.Veitch",1
+6,"Myriophyllum sibiricum Komarov",1
+6,"Onoclea sensibilis L.",1
+6,"Orthotrichum obtusifolium Bridel, 1801",2
+6,"Paraleucobryum longifolium Loeske, 1908",1
+6,"Parnassia glauca Raf.",1
+6,"Parthenocissus quinquefolia (L.) Planch.",2
+6,"Penstemon digitalis Nutt.",1
+6,"Phragmites australis (Cav.) Steud.",1
+6,"Pinus strobus L.",1
+6,"Pinus sylvestris L.",1
+6,"Plagiochila porelloides (Torr. ex Nees) Lindenb.",1
+6,"Platanthera psycodes (L.) Lindl.",1
+6,"Platygyrium repens W.P.Schimper, 1851",1
+6,"Podophyllum peltatum L.",2
+6,"Polystichum acrostichoides (Michx.) Schott",1
+6,"Potamogeton natans L.",1
+6,"Prunus serotina Ehrh.",1
+6,"Prunus virginiana L.",2
+6,"Pylaisia polyantha W.P.Schimper, 1851",1
+6,"Pylaisiella polyantha (Hedw.) Grout",1
+6,"Quercus schuettei Trel.",1
+6,"Radula complanata (L.) Dumort.",1
+6,"Ranunculus flabellaris Raf.",1
+6,"Rhamnus cathartica L.",1
+6,"Rhizomnium punctatum T.Koponen, 1968",1
+6,"Rhus radicans subsp. negundo (Greene) McNeill",1
+6,"Rhus typhina L.",3
+6,"Rudbeckia hirta L.",1
+6,"Rumex obtusifolius L.",1
+6,"Salix amygdaloides Andersson",1
+6,"Salix discolor Muhl.",1
+6,"Salix fragilis L.",1
+6,"Sambucus racemosa L.",3
+6,"Saponaria officinalis L.",1
+6,"Sarracenia purpurea L.",1
+6,"Satureja acinos (L.) Scheele",1
+6,"Schistidium apocarpum Bruch & W.P.Schimper, 1845",1
+6,"Schoenoplectus tabernaemontani (C.C.Gmel.) Palla",1
+6,"Securigera varia (L.) Lassen",1
+6,"Sedum telephium L.",1
+6,"Sorbus aucuparia L.",1
+6,"Sphagnum squarrosum Crome, 1803",1
+6,"Symphyotrichum lanceolatum (Willd.) G.L.Nesom",1
+6,"Symphyotrichum novae-angliae (L.) G.L.Nesom",2
+6,"Taxiphyllum deplanatum Fleischer, 1923",1
+6,"Thalictrum dioicum L.",1
+6,"Thuidium delicatulum var. radicans (Kindb.) H.A.Crum, Steere & L.E.Anderson",1
+6,"Thuja occidentalis L.",2
+6,"Tiarella cordifolia L.",2
+6,"Tilia americana L.",1
+6,"Timmia megapolitana Hedwig, 1801",1
+6,"Toxicodendron rydbergii Greene",2
+6,"Trifolium pratense L.",3
+6,"Trifolium repens L.",1
+6,"Trillium erectum L.",2
+6,"Trillium grandiflorum Salisb.",3
+6,"Triosteum aurantiacum E.P.Bicknell",1
+6,"Tussilago farfara L.",3
+6,"Verbascum thapsus L.",3
+6,"Veronica serpyllifolia subsp. serpyllifolia",1
+6,"Vicia cracca L.",1
+6,"Viola canadensis L.",1
+6,"Viola conspersa Rchb.",1
+6,"Viola cucullata Aiton",1
+6,"Viola labradorica Schrank",1
+6,"Vitis riparia Michx.",1
+>>>>>>> bf09e8302d88be1fc29f64644d4df7ee9f5831bc
