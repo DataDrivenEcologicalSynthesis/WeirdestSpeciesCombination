@@ -6,21 +6,21 @@ We're going to determine a) how to define a "weird species combination" and b) w
 
 ## Milestones 
 
-1. Figure out a question
+1. ~~Figure out a question~~
 2. Get some data
 3. Attempt to answer question
-4. Present project for other groups on date ?
+4. Present project for other groups on June 5
 5. The real project was the friendship we made along the way
 
 
 ## Milestone Tasks
 
 1. Determine our research question
-   - [ ] Brainstorm as a group 
-   - [ ] Determine question parameters (e.g. what is "weird") 
-   - [ ] Set a deadline to reach this milestone
+   - [x] Brainstorm as a group 
+   - [x] Determine question parameters (e.g. what is "weird") 
+   - [x] Set a deadline to reach this milestone
    
-   - 20-May-20 meeting:
+   - 20-May-20 meeting notes
       - Potential Questions/Approaches
          1. What city in Canada has the weirdest surrounding plant community?
          2. Can we place them along a "Transect of weird"?
@@ -40,10 +40,10 @@ Questions:
       - Generate a data set and begin exploring 
          - Combine data from GBIF and TRY databases pairing species occurances with traits
          
-  - [ ] Decided on six populous Canadian cities spanning a gradient from West to East
+  - [x] Decided on six populous Canadian cities spanning a gradient from West to East
          - Vancouver, Edmonton, Winnipeg, Toronto, Montreal, Halifax
          
-  - [ ] Create a sampling area for each city
+  - [x] Create a sampling area for each city
       - 10 x 10 km quadrats, 10 km apart, beginning in the city and moving north
       
   - [ ] Gather all species that occur within these quadrats 
