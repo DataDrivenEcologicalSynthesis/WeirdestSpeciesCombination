@@ -16,7 +16,7 @@ trySpecies <- read.csv("data/TRY_specieslist.csv") %>%
 
 # Which species in our quadrats are in the TRY database?
 
-# scientific names from gbif contain the authority, but in try they do not.
+# scientific names from gbif contain the authority, but in TRY they do not.
 unique(speciesList$scientificName)[1:10]
 trySpecies$scientificName[1:10]
 
