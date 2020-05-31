@@ -11,13 +11,13 @@ source("scripts//functions.r")
 ## Download polygon for Canada
 # canPoly <- getData(name="GADM", country="CAN", level=1) ## run once for download
 canPoly <- readRDS("data//gadm36_CAN.rds") ## load polygon
-# plot(canPoly) ## takes a while because all the islands 
+# plot(canPoly) ## takes a while because all the islands
 
 
 ## dataframe of lat, lon for cities
 cities <- data.frame(city = c("Vancouver","Edmonton","Winnipeg","Toronto","Montreal","Halifax"),
-             lon = c(-123.1206,-113.4939,-97.1383,-79.3832,-73.5672,-63.575),
-             lat = c(49.2828,53.5461,49.895,43.6532,45.5017,44.6486))
+                     lon = c(-123.1206,-113.4939,-97.1383,-79.3832,-73.5672,-63.575),
+                     lat = c(49.2828,53.5461,49.895,43.6532,45.5017,44.6486))
 
 
 ## Create spatial dataframe
@@ -27,15 +27,15 @@ proj4string(cities) <- CRS("+proj=longlat +datum=WGS84") ## Need to use a CRS (I
 
 ## Notes
 ## a CRS of WGS84 has units in decimal degrees. The earth is circular so 1 decimal degree does not equal the same thing at different latitudes (e.g. higher latitudes smaller distances, latitudes closer to the equator are larger).
-## Every degree away from the equator is equal to cosine of that latitude. 
+## Every degree away from the equator is equal to cosine of that latitude.
 deg2rad <- function(deg) {(deg * pi) / (180)} ## function converts decimal degrees to radians
 lat2km <- function(lat){ cos(deg2rad(lat)) * 111.32 } ## cosine of latitude in radius multiplied by the size of the decimal at the equator
 
-## Find out the units of km for decimal degrees at the latitude of Toronto
+## Find out the units of km for decimal degrees at the latitude of Toronto.
 lat2km(43.6532) ## 1 decimal degree at Toronto is 80.5435
 
 ## Decimal degrees to 10 km buffer
-resToronto <- 1/80.5435*10 ## 0.1241 decimal degrees  = 10 km 
+resToronto <- 1/80.5435*10 ## 0.1241 decimal degrees  = 10 km
 
 ## Create transect for the 6 cities
 vancouverTransect <- cityTransect(citylon = st_bbox(cities[which(cities$city == "Vancouver"),])$xmin, citylat = st_bbox(cities[which(cities$city == "Vancouver"),])$ymin, nquadrat = 6, buffer = 5, distance = 10)
@@ -55,29 +55,29 @@ halifaxTransect <- cityTransect(citylon = st_bbox(cities[which(cities$city == "H
 
 # ## Plot to make sure it worked
 # Check Vancouver
- plot(canPoly[canPoly$NAME_1=="British Columbia",]) ## plot just British columbia
- plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities   
- plot(vancouverTransect, add = TRUE)
- # Check Edmonton
- plot(canPoly[canPoly$NAME_1=="Alberta",]) ## plot just Alberta
- plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities   
- plot(edmontonTransect, add = TRUE)
- # Check Winnipeg
-  plot(canPoly[canPoly$NAME_1=="Manitoba",]) ## plot just Manitoba
- plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities   
- plot(winnipegTransect, add = TRUE)
- # Check Toronto
- plot(canPoly[canPoly$NAME_1=="Ontario",]) ## plot just Ontario
- plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities  
- plot(torontoTransect, add = TRUE)
- # Check Montreal
-  plot(canPoly[canPoly$NAME_1=="Québec",]) ## plot just Quebec
- plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities   
- plot(montrealTransect, add = TRUE)
- # Check Halifax
-  plot(canPoly[canPoly$NAME_1=="Nova Scotia",]) ## plot just Nova Scotia
- plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities   
- plot(halifaxTransect, add = TRUE)
+plot(canPoly[canPoly$NAME_1=="British Columbia",]) ## plot just British columbia
+plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities
+plot(vancouverTransect, add = TRUE)
+# Check Edmonton
+plot(canPoly[canPoly$NAME_1=="Alberta",]) ## plot just Alberta
+plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities
+plot(edmontonTransect, add = TRUE)
+# Check Winnipeg
+plot(canPoly[canPoly$NAME_1=="Manitoba",]) ## plot just Manitoba
+plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities
+plot(winnipegTransect, add = TRUE)
+# Check Toronto
+plot(canPoly[canPoly$NAME_1=="Ontario",]) ## plot just Ontario
+plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities
+plot(torontoTransect, add = TRUE)
+# Check Montreal
+plot(canPoly[canPoly$NAME_1=="Québec",]) ## plot just Quebec
+plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities
+plot(montrealTransect, add = TRUE)
+# Check Halifax
+plot(canPoly[canPoly$NAME_1=="Nova Scotia",]) ## plot just Nova Scotia
+plot(cities, add=T, col="blue", pch=19, cex=2) ## plot all cities
+plot(halifaxTransect, add = TRUE)
 
 ## Save to file
 saveRDS(vancouverTransect, file = "data/transects/vancouver.rds")
