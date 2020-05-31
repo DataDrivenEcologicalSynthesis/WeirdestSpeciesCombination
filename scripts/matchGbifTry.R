@@ -29,12 +29,22 @@ mtlSpecies[, "scientificName"] <- gbif_parse(mtlSpecies$scientificName)[, "canon
 halSpecies[, "scientificName"] <- gbif_parse(halSpecies$scientificName)[, "canonicalname"]
 
 
+# TORONTO ONLY ANALYSIS SO FAR BELOW THIS LINE - needs to be extended to multiple cities
+
 # get list of accession numbers to paste into TRY https://www.try-db.org/TryWeb/Prop2.php
+overlap <- trySpecies[trySpecies$scientificName %in% torSpecies$scientificName,] # TRY species in Toronto species list
 
-torOverlap <- trySpecies[trySpecies$scientificName %in% torSpecies$scientificName,] # TRY species in Toronto species list
+# write out accession numbers for pasting into TRY
+## TRY will only accept 1000 species codes at a time, so write out accession numbers file with lines of 1000 species codes each. Make sure to open in a text editor and not a spreadsheet program for proper copy-pasting.
 
-write.table(x=torOverlap$AccSpeciesID, "data/tryAccession/tor_accession.csv", row.names = FALSE, col.names = FALSE, sep=",")
+breaks <- seq(from=1, to=nrow(overlap), by=1000)
+if (file.exists("data/tryAccession/accessionNos.csv")) file.remove("data/tryAccession/accessionNos.csv") # the for loop below will just keep appending to the existing file - this line prevents duplication within the file
+
+for (i in 1:length(breaks)) {
+    accessionNos <- overlap$AccSpeciesID[breaks[i]:(breaks[i] + 999)]
+    write.table(t(accessionNos), "data/tryAccession/accessionNos.csv", col.names=FALSE, row.names = FALSE, sep=",", append=TRUE)
+}
 
 # Proportion of Toronto species NOT included in TRY
-(nrow(torSpecies) - nrow(torOverlap))/nrow(torSpecies) # ~47%
+(nrow(torSpecies) - nrow(overlap))/nrow(torSpecies) # ~47%
 
