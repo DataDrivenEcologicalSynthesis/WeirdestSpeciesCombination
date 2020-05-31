@@ -18,7 +18,7 @@ occ_count(country=canCode) ## 71319394 occurrences in Canada
 plants <- name_lookup(query='plantae') ## use Nub/kingdom key
 
 ## search for plants in Canada
-nrecord <- occ_search(taxonKey = 6, country= canCode, hasCoordinate=T) ## 1821428 records 
+nrecord <- occ_search(taxonKey = 6, country= canCode, hasCoordinate=T) ## 1821428 records
 
 ## Download occurrences
 allspp <- occ_search(taxonKey = 6, country= canCode, hasCoordinate=T, return="data", ## select plants, in Canada, with coordinates
@@ -26,7 +26,7 @@ allspp <- occ_search(taxonKey = 6, country= canCode, hasCoordinate=T, return="da
                      geometry = 'POLYGON((-80 43, -80 44, -79 44, -79 43, -80 43))') ## specify for area around Toronto - WKT polygon counter clockwise
 
 
-## Assign points to dataframe                   
+## Assign points to dataframe
 torOcc <-  allspp %>% data.frame()
 
 ## Plot occurrences around Toronto
@@ -107,3 +107,33 @@ write.csv(speciesList_win, "data//WinnipegSpeciesList.csv", row.names=FALSE)
 write.csv(speciesList_tor, "data//TorontoSpeciesList.csv", row.names=FALSE)
 write.csv(speciesList_mtl, "data//MontrealSpeciesList.csv", row.names=FALSE)
 write.csv(speciesList_hal, "data//HalifaxSpeciesList.csv", row.names=FALSE)
+<<<<<<< HEAD
+=======
+=======
+torQuadrat <- readRDS("data//transects//toronto.rds")
+
+torQuadrat[1]
+
+## Download based on Quadrats
+allquadrats <- data.frame()
+for(i in 1:6){
+    quadratTemp <- occ_search(taxonKey = 6, country= canCode, hasCoordinate=T, return="data", ## select plants, in Canada, with coordinates
+                              limit=50000, ## set  limit for downloading records
+                              geometry = wicket::sp_convert(torQuadrat[i])) ## specify first quadrat
+    quadratTemp[,"quadrat"] <- rep(i, nrow(quadratTemp))
+    allquadrats <- 	plyr::rbind.fill(allquadrats, quadratTemp)
+    print(i)
+}
+
+## Drop columns with lots of NAs >20%
+allquadrats <- allquadrats[,!apply(allquadrats, 2, function(x) sum(is.na(x))/nrow(allquadrats))>.20]
+
+## allquadrats
+write.csv(allquadrats, "data//gbif//TorontoTransect.csv", row.names=FALSE)
+
+## Create species list for each quadrat with number of occurrences
+speciesList <- allquadrats %>% group_by( quadrat, scientificName) %>% summarize(count=length(scientificName))
+
+write.csv(speciesList, "data//TorontoSpeciesList.csv", row.names=FALSE)
+>>>>>>> bf09e8302d88be1fc29f64644d4df7ee9f5831bc
+>>>>>>> cf457d6a76e162a6e632bf06ec1d084247fe4cb5
