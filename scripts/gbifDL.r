@@ -34,7 +34,6 @@ leaflet() %>% addTiles() %>% addCircleMarkers(lng = torOcc$decimalLongitude, lat
 
 
 #### Download data for transects
-<<<<<<< HEAD
 vanQuadrat <- readRDS("data/transects/vancouver.rds")
 edmQuadrat <- readRDS("data/transects/edmonton.rds")
 winQuadrat <- readRDS("data/transects/winnipeg.rds")
@@ -108,6 +107,8 @@ write.csv(speciesList_win, "data//WinnipegSpeciesList.csv", row.names=FALSE)
 write.csv(speciesList_tor, "data//TorontoSpeciesList.csv", row.names=FALSE)
 write.csv(speciesList_mtl, "data//MontrealSpeciesList.csv", row.names=FALSE)
 write.csv(speciesList_hal, "data//HalifaxSpeciesList.csv", row.names=FALSE)
+<<<<<<< HEAD
+=======
 =======
 torQuadrat <- readRDS("data//transects//toronto.rds")
 
@@ -135,3 +136,4 @@ speciesList <- allquadrats %>% group_by( quadrat, scientificName) %>% summarize(
 
 write.csv(speciesList, "data//TorontoSpeciesList.csv", row.names=FALSE)
 >>>>>>> bf09e8302d88be1fc29f64644d4df7ee9f5831bc
+>>>>>>> cf457d6a76e162a6e632bf06ec1d084247fe4cb5
