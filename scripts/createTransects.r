@@ -37,20 +37,24 @@ lat2km(43.6532) ## 1 decimal degree at Toronto is 80.5435
 ## Decimal degrees to 10 km buffer
 resToronto <- 1/80.5435*10 ## 0.1241 decimal degrees  = 10 km
 
-## Create transect for the 6 cities
-vancouverTransect <- cityTransect(citylon = st_bbox(cities[which(cities$city == "Vancouver"),])$xmin, citylat = st_bbox(cities[which(cities$city == "Vancouver"),])$ymin, nquadrat = 6, buffer = 5, distance = 10)
+## List cities to generate transects not in sp dataframe
+cities <- data.frame(city = c("Vancouver","Edmonton","Winnipeg","Toronto","Montreal","Halifax"),
+                     lon = c(-123.1206,-113.4939,-97.1383,-79.3832,-73.5672,-63.575),
+                     lat = c(49.2828,53.5461,49.895,43.6532,45.5017,44.6486))
 
-edmontonTransect <- cityTransect(citylon = st_bbox(cities[which(cities$city == "Edmonton"),])$xmin, citylat = st_bbox(cities[which(cities$city == "Edmonton"),])$ymin, nquadrat = 6, buffer = 5, distance = 10)
+vancouverTransect <- cityTransect(citylon = cities[cities$city == "Vancouver","lon"], citylat = cities[cities$city == "Vancouver","lat"], nquadrat = 5, buffer = 5, distance = 10)
 
-winnipegTransect <- cityTransect(citylon = st_bbox(cities[which(cities$city == "Winnipeg"),])$xmin, citylat = st_bbox(cities[which(cities$city == "Winnipeg"),])$ymin, nquadrat = 6, buffer = 5, distance = 10)
+edmontonTransect <- cityTransect(citylon = cities[cities$city == "Edmonton","lon"], citylat = cities[cities$city == "Edmonton","lat"], nquadrat = 5, buffer = 5, distance = 10)
 
-torontoTransect <- cityTransect(citylon = st_bbox(cities[which(cities$city == "Toronto"),])$xmin, citylat = st_bbox(cities[which(cities$city == "Toronto"),])$ymin, nquadrat = 6,  ## nquadrat is the number of quadrats
+winnipegTransect <- cityTransect(citylon = cities[cities$city == "Winnipeg","lon"], citylat = cities[cities$city == "Winnipeg","lat"], nquadrat = 5, buffer = 5, distance = 10)
+
+torontoTransect <- cityTransect(citylon = cities[cities$city == "Toronto","lon"], citylat = cities[cities$city == "Toronto","lat"], nquadrat = 5,  ## nquadrat is the number of quadrats
                                 buffer=5, ## distance in km around the centroid of city to make the buffer. e.g. 5 = 10 x 10 km box with city as center
                                 distance = 10) ## distance in km between buffered transects
 
-montrealTransect <- cityTransect(citylon = st_bbox(cities[which(cities$city == "Montreal"),])$xmin, citylat = st_bbox(cities[which(cities$city == "Montreal"),])$ymin, nquadrat = 6, buffer = 5, distance = 10)
+montrealTransect <- cityTransect(citylon = cities[cities$city == "Montreal","lon"], citylat = cities[cities$city == "Montreal","lat"], nquadrat = 5, buffer = 5, distance = 10)
 
-halifaxTransect <- cityTransect(citylon = st_bbox(cities[which(cities$city == "Halifax"),])$xmin, citylat = st_bbox(cities[which(cities$city == "Halifax"),])$ymin, nquadrat = 6, buffer = 5, distance = 10)
+halifaxTransect <- cityTransect(citylon = cities[cities$city == "Halifax","lon"], citylat = cities[cities$city == "Halifax","lat"], nquadrat = 5, buffer = 5, distance = 10)
 
 
 # ## Plot to make sure it worked
