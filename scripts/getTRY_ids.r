@@ -1,24 +1,7 @@
-# Match GBIF master species list with TRYspeciesList to get the access ids.
+# create a file of TRY accession numbers to obtain data from the TRY database
 
-# Reading in the masterSpeciesList of each city that got cleaned in OpenRefine, and the TRYSpeciesList
-MasterSpeciesList <- read.csv("data/MasterSpeciesList_clean.csv", header = TRUE, stringsAsFactors = FALSE)
-TRY_SpeciesList <- read.csv("data/TRY_specieslist.csv", header = TRUE, stringsAsFactors = FALSE)
-
-# Make one colum with Genus + Species in the TRY list
-TRY_SpeciesList[,"species"] <- paste(TRY_SpeciesList$Genus, TRY_SpeciesList$Species, sep = " ")
-
-# Only get the needed info
-TRY_SpeciesList <- TRY_SpeciesList[,c("AccSpeciesID","species")]
-
-# Drop NAs from gbif species list
-MasterSpeciesList <- MasterSpeciesList[which(!is.na(MasterSpeciesList$species)),]
-
-# Join the two file based on the species name
-SpeciesList_joined <- TRY_SpeciesList[TRY_SpeciesList$species %in% MasterSpeciesList$species,]
-AccSpeciesID <- unique(SpeciesList_joined[,"AccSpeciesID"]) # Get only the IDs as a vector
-
-# Sanity check
-length(AccSpeciesID) < nrow(TRY_SpeciesList)
+TRY_SpeciesList <- read.csv("data/Specieslist_TRY_join.csv", header=TRUE, stringsAsFactors = FALSE)
+AccSpeciesID <- unique(TRY_SpeciesList[,"AccSpeciesID"]) # Get only the IDs as a vector
 
 # Separate the IDs in chunk of 1000 for the retrieval on TRYdatabase
 # write out accession numbers for pasting into TRY
