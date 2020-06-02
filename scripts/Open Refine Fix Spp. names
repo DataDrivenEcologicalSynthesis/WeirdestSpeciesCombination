@@ -1,0 +1,56 @@
+
+## Correct Species names in GBIF Master Species list
+
+Cluster and correct the GBIF Master Species List. Species that were misspelled or were no longer accepted (itis.gov) were corrected.
+
+
+[
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "species",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Sambucus caerulea",
+          "Sambucus cerulea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Sambucus nigra"
+      },
+      {
+        "from": [
+          "Racomitrium fasciculare",
+          "Rhacomitrium fasciculare"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Racomitrium fasciculare"
+      },
+      {
+        "from": [
+          "Barbula unguiculata",
+          "Barbula unquiculata"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Barbula unguiculata"
+      },
+      {
+        "from": [
+          "Apocynum androsaemifolium",
+          "Apocynum androsaenifolium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Apocynum androsaemifolium"
+      }
+    ],
+    "description": "Mass edit cells in column species"
+  }
+]
