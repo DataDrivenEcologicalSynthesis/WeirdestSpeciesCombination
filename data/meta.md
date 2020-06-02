@@ -10,7 +10,7 @@
 
 - `MasterSpeciesList_clean.csv` master species list cleaned of misspellings/out of date taxonomy using OpenRefine script `Open Refine Fix Spp. names` in the scripts folder
 
-- `Specieslist_TRY_join.csv` output from joining the `MasterSpeciesList_clean.csv` and the `TRY_specieslist.csv`, removed all the duplicate names using the OpenRefine script `Remove duplicates OpenRefine` in the scripts folder. There are 3190 observations.
+- `Specieslist_TRY_join.csv` is the list with species names and TRY codes with duplicates removed. The "SpeciesList_joined" created by `getTRY_ids.r`, which joins the `MasterSpeciesList_clean.csv` and the `TRY_specieslist.csv`, is brought into OpenRefine where we run the `Remove duplicates OpenRefine` script to remove duplicate species names. There are 3190 observations.
 
 - `AccessionMaster_correct.csv` contains the codes, broken into 1000 codes per row, generated using `Specieslist_TRY_join.csv`. 
 
