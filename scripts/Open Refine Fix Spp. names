@@ -1,3 +1,9 @@
+
+## Correct Species names in GBIF Master Species list
+
+Cluster and correct the GBIF Master Species List. Species that were misspelled or were no longer accepted (itis.gov) were corrected.
+
+
 [
   {
     "op": "core/mass-edit",
