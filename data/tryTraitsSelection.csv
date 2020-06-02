@@ -1,0 +1,20 @@
+TraitID,Trait
+3086,"Leaf area per leaf dry mass (specific leaf area, SLA or 1/LMA) petiole, rhachis and midrib excluded"
+3115,"Leaf area per leaf dry mass (specific leaf area, SLA or 1/LMA): petiole excluded"
+3116,"Leaf area per leaf dry mass (specific leaf area, SLA or 1/LMA): petiole included"
+3117,"Leaf area per leaf dry mass (specific leaf area, SLA or 1/LMA): undefined if petiole is in- or exclu"
+132,Seed mass per plant
+131,Seed number per plant
+1103,Seed number per flower
+1104,"Seed number per inflorescence (total, fertile, infertile)"
+335,Plant reproductive phenology timing
+9,Root:Shoot ratio
+621,"Plant relationship of stem mass, height and diameter"
+3107,Plant height generative
+3106,Plant height vegetative
+46,Leaf thickness
+143,Leaf petiole length
+42,Plant growth form
+28,Dispersal syndrome
+21,Stem diameter
+3096,Species habitat characterization: vegetation type
