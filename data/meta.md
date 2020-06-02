@@ -10,4 +10,17 @@
 
 - `MasterSpeciesList_clean.csv` master species list cleaned of misspellings/out of date taxonomy using OpenRefine script `Open Refine Fix Spp. names` in the scripts folder
 
-- `Specieslist_TRY_join.csv` output from joining the `MasterSpeciesList_clean.csv` and the `TRY_specieslist.csv`, removed all the duplicate names using the OpenRefine script `Remove duplicates OpenRefine` in the scripts folder
+- `Specieslist_TRY_join.csv` output from joining the `MasterSpeciesList_clean.csv` and the `TRY_specieslist.csv`, removed all the duplicate names using the OpenRefine script `Remove duplicates OpenRefine` in the scripts folder. There are 3190 observations.
+
+- `AccessionMaster_correct.csv` contains the codes, broken into 1000 codes per row, generated using `Specieslist_TRY_join.csv` 
+
+TRY request
+- used `AccessionMaster_correct.csv` for the species codes
+- used `tryTraitsSelection.csv` to request the traits (20 total)
+- Only requested publically available traits:
+- Pull 1: 201461 total trait measurements, 179594 of which are public.
+- Pull 2: 174699 total trait measurements, 156453 of which are public.
+- Pull 3: 236685 total trait measurements, 206541 of which are public.
+- Pull 4: 48192 total trait measurements, 43547 of which are public.
+
+
