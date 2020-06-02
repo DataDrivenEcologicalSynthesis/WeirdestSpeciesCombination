@@ -1,3 +1,10 @@
+# OpenRefine Script to Remove Duplicates
+
+Using the "SpeciesList_joined" output from the getTRY_ids.r 
+Removed all of the duplicates from this output, so each species has one TRY AccCode 
+
+
+
 [
   {
     "op": "core/row-reorder",
