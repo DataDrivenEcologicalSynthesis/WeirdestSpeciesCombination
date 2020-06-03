@@ -14,8 +14,15 @@ sla <- species_traits %>%
 
 # have a quick peek at the data
 
-ggplot(sla, aes(x=City, y=value, fill=as.factor(City))) +
-    geom_violin()
+cities <- ggplot(sla, aes(x=City, y=value, fill=as.factor(City))) +
+    geom_violin() +
+    theme_classic()
+
+# fancied up a bit
+
+cities + theme(legend.position = "none") +
+    labs(x = " ",
+         y = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")"))) 
 
 # calculate percentiles
 
@@ -70,8 +77,17 @@ local_weird %>%
 # 6 Winnipeg     24
 
 # visual check - two humped?
-ggplot(local_weird, aes(x=value, fill=as.factor(City))) +
-    geom_density(alpha=0.5)
+
+local_weird <- ggplot(local_weird, aes(x=value, fill=as.factor(City))) +
+    geom_density(alpha=0.5) +
+    theme_classic() 
+    
+## fancied it up a bit
+
+local_weird + theme(legend.title = element_blank()) +
+    labs(y = "Density",
+         x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")"))) 
+
 
 # write out locally weird
 write.csv(local_weird, "analysis/locally_weird.csv", row.names = FALSE)
