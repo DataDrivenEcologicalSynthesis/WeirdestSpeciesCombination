@@ -12,6 +12,9 @@
 
 `getTRY_ids.r` takes `Specieslist_TRY_join.csv` and builds a file (`data/tryAccession/accessionMaster.csv` whose lines can be pasted into TRY
 
+`tidying_TRYtraits.r` takes the large files obtained from TRY, reads them in, and summarizes them by mean trait value for each species. It then writes out the tidied trait values to `data/traitData.csv`
+
+`buildSpeciesTraitData.r` takes `data/traitData.csv` from TRY and combines it with the GBIF occurrance data `MasterSpeciesList_clean.csv` to create a list of species with their associate mean trait values in `species_and_their_traits.csv`
 
 
 
