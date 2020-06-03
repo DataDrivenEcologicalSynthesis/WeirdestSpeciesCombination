@@ -46,18 +46,18 @@ Questions:
   - [x] Create a sampling area for each city
       - 10 x 10 km quadrats, 10 km apart, beginning in the city and moving north
       
-  - [ ] Gather all species that occur within these quadrats 
+  - [x] Gather all species that occur within these quadrats 
         - Use GBIF to gather species occurrences
         
-  - [ ] Clean species data
+  - [x] Clean species data
          - Remove taxonomists names
          - Change the format?
          
-  - [ ] Match species in the cities to the species in the TRY database
+  - [x] Match species in the cities to the species in the TRY database
          - request TRY data using the species codes
          - Common traits: specific leaf area, height, number of flowers, number of seeds
          
-   - [ ] Merge the species dataset for each city-quadrat with TRY information
+   - [x] Merge the species dataset for each city-quadrat with TRY information
   
    
 3. Answer the question

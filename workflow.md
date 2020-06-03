@@ -1,5 +1,6 @@
 # workflow
 
+## obtaining and cleaning data
 `createTransects.r` generates transects for 6 canadian cities and writes out transect data to `data/transects/*.rds`
 
 `gbifDL.r` generates `MasterSpeciesList.csv` using `data/transects/*.rds`
@@ -12,13 +13,17 @@
 
 The output of the species lists & TRY codes, with duplicates (`Specieslist_Joined`) is then brought into OpenRefine where`TRY spp. list OpenRefine` removes all duplicate values and creates `Specieslist_TRY_join.csv`
 
-`getTRY_ids.r` takes `Specieslist_TRY_join.csv` and builds a file (`data/tryAccession/accessionMaster.csv`) where each row represents 1000 species (3) and one represents 190 species. Each row needs to be converted into the TRY format which is a list separated by commas.
+`getTRY_ids.r` takes `Specieslist_TRY_join.csv` and builds a file (`data/tryAccession/accessionMaster_clean.csv`) where each row represents 1000 species (3) and one represents 190 species. Each row needs to be converted into the TRY format which is a list separated by commas.
   * Easy way to do this is to take it into word (copy & paste text) and find replace "   " with ", " 
   * Copy and paste the word file into TRY
+  * You can also open `accessionMaster.csv` in any text editor. It will be a 4 line file - 1 line per TRY request.
 
 `tidying_TRYtraits.r` takes the large files obtained from TRY, reads them in, and summarizes them by mean trait value for each species. It then writes out the tidied trait values to `data/traitData.csv`
 
 `buildSpeciesTraitData.r` takes `data/traitData.csv` from TRY and combines it with the GBIF occurrance data `MasterSpeciesList_clean.csv` to create a list of species with their associate mean trait values in `species_and_their_traits.csv`
+
+## analysis
+`generate_percentiles.r` builds list of species with a trait value in the tails of its distribution across all cities, within each city, and within each quadrat within each city
 
 
 
