@@ -10,9 +10,11 @@ species_traits <- read.csv("data/species_and_their_traits.csv", header = TRUE, s
 sla <- species_traits %>%
     select(-count) %>%
     filter(TraitName == "Leaf area per leaf dry mass (specific leaf area, SLA or 1/LMA): petiole excluded") %>%
-    mutate(TraitName = "SLA") # Make the trait name easier to work with
+    mutate(TraitName = "SLA") # Make the trait name easier to work with))
 
 # have a quick peek at the data
+sla$City <- factor(sla$City, levels = c("Vancouver", "Edmonton", "Winnipeg", "Toronto", "Montreal", "Halifax")) # reordering city names West to East
+                                        
 
 cities <- ggplot(sla, aes(x=City, y=value, fill=as.factor(City))) +
     geom_violin() +
@@ -20,9 +22,12 @@ cities <- ggplot(sla, aes(x=City, y=value, fill=as.factor(City))) +
 
 # fancied up a bit
 
+cities$sla$City <- factor(cities$sla$City,
+                           levels = c("Vancouver, Edmonton, Winnipeg, Toronto, Montreal, Halifax"))
+
 cities + theme(legend.position = "none") +
     labs(x = " ",
-         y = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")"))) 
+         y = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 
 # calculate percentiles
 
