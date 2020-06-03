@@ -41,7 +41,7 @@ ggplot(global_weird, aes(x=value)) +
     geom_density()
 
 # write out globally weird
-write.csv("analysis/globally_weird.csv", row.names = FALSE)
+write.csv(global_weird, "analysis/canada_weird.csv", row.names = FALSE)
 
 # LOCALLY WEIRD
 
