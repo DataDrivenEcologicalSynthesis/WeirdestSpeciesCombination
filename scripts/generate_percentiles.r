@@ -33,7 +33,7 @@ global_weird <- sla %>%
     filter(value < global_percentile[1] | value > global_percentile[2]) %>%
     arrange(value)
 
-nrow(global_weird) # 84 globally weird species
+nrow(global_weird) # 158 globally weird species
 
 # visual check - two humped?
 
