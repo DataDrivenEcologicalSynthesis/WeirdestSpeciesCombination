@@ -10,8 +10,10 @@ species_traits %>%
     group_by(TraitName) %>%
     summarize(n())
 
-species_traits %>%
+SLA <- species_traits %>%
     filter(TraitName=="Leaf area per leaf dry mass (specific leaf area, SLA or 1/LMA): petiole excluded")
+
+unique(SLA)
 
 # boxplots of species traits by city
 ggplot(species_traits, aes(x=value, fill=as.factor(City))) +
@@ -23,3 +25,11 @@ meansd <- species_traits %>%
     group_by(City, quadrat, TraitName) %>%
     summarise(sd = sd(value))
 
+### boxplots of SLA
+
+SLA_boxplot <- ggplot(SLA, aes(x=value, fill=as.factor(City))) +
+    facet_wrap(. ~ TraitName, scales="free_x") +
+    geom_boxplot() +
+    theme_classic()
+
+SLA_boxplot
