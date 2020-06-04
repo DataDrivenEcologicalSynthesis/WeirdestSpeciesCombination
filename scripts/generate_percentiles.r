@@ -21,17 +21,17 @@ canada <- ggplot(sla, aes(x=value)) +
 
 
 cities <- ggplot(sla, aes(x=City, y=value, fill=City)) +
+    #geom_violin(aes(x="All", y=value), inherit.aes = FALSE, draw_quantiles = c(0.10, 0.90)) +
     geom_violin(draw_quantiles = c(0.10, 0.90)) +
     theme_classic(base_size=18)
 
-cities$sla$City <- factor(cities$sla$City,
-                          levels = c("Vancouver, Edmonton, Winnipeg, Toronto, Montreal, Halifax")) # put cities in order
+#cities$sla$City <- factor(cities$sla$City,
+          #                levels = c("Vancouver, Edmonton, Winnipeg, Toronto, Montreal, Halifax")) # put cities in order
 
 
 # fancied up a bit
 
 cities_fancy <- cities +
-    geom_violin(aes(x="All", y=value), inherit.aes = FALSE, draw_quantiles = c(0.10, 0.90)) +
     theme(legend.position = "none") +
     labs(x = " ",
          y = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
