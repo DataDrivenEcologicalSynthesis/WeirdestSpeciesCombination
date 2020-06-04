@@ -130,14 +130,18 @@ write.csv(hyperlocal_weird, "analysis/quadrat_weird.csv", row.names = FALSE)
 test <- sla %>%
     select(-TraitName, -quadrat) %>%
     group_by(City)
-cityHist <- ggplot(test, aes(x = value, fill =  as.factor(City))) +
-    facet_wrap(~ City) +
-    geom_histogram(position = "stack", bins = 50) +
-    ggtitle("Distribution of SLA by city, 5 quadrats confound")
 
-cityHist + theme(legend.title = element_blank()) +
+cityHist <- ggplot(test, aes(x = value, fill =  City)) +
+    facet_wrap(~ City) +
+    geom_histogram(position = "stack", bins = 50)
+    
+
+cityHist <- cityHist + theme(legend.position = "None") +
     labs(y = "Count",
          x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
+
+ggsave("figures/cityHist.png", plot=cityHist, width=16, height=9, units="in")
+
 
 # Trying to make the 5 quadrat for each city (6x5 plots)
 test <- sla %>%
@@ -148,14 +152,14 @@ tempDf <- data.frame(c("Edmonton","Edmonton","Winnipeg","Winnipeg"), c(3,5,4,5),
 colnames(tempDf) <- colnames(test)
 test <- rbind(test, tempDf)
 
-allHist <- ggplot(test, aes(x = value, fill = as.factor(City))) +
+allHist <- ggplot(test, aes(x = value, fill = City)) +
     facet_wrap(quadrat ~ City) +
     geom_histogram(position = "stack", bins = 50)
 
-allHist + theme(legend.title = element_blank()) +
+ allHist <- allHist + theme(legend.position = "None") +
     labs(y = "Count",
          x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
-# That is legit the best i can do right now. judge me plz
+ggsave("figures/quadratHist.png", plot=allHist, width=16, height=9, units="in")
 
 
 # Sampling effort. Don't know if we can say this is sampling effort, but thought it was worth showing how many obs. we had per city
@@ -164,9 +168,10 @@ sampEff <- sla %>%
     count()
 
 sampEff_plot <- ggplot(sampEff, aes(x = City, y = n, fill = City)) +
-    geom_bar(stat = "identity") +
-    ggtitle("Number of observation per city, all species confound")
+    geom_bar(stat = "identity")
 
-sampEff_plot + theme(legend.title = element_text("City")) +
-    labs(y = "Number of observation",
-         x = "City")
+sampEff_plot <- sampEff_plot + theme_classic(base_size = 18) +
+    theme(legend.position = "none") +
+    labs(x = " ",
+         y = "Number of species")  
+ggsave("figures/sampling_spfig.png", plot=sampEff_plot, width=16, height=9, units="in")
