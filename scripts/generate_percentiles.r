@@ -22,16 +22,21 @@ canada <- ggplot(sla, aes(x=value)) +
 
 cities <- ggplot(sla, aes(x=City, y=value, fill=City)) +
     geom_violin(draw_quantiles = c(0.10, 0.90)) +
-    theme_classic(base_size=18) +
-    geom_violin(aes(x="All", y=value), inherit.aes = FALSE, draw_quantiles = c(0.10, 0.90))
+    theme_classic(base_size=18)
+
+cities$sla$City <- factor(cities$sla$City,
+                          levels = c("Vancouver, Edmonton, Winnipeg, Toronto, Montreal, Halifax")) # put cities in order
+
 
 # fancied up a bit
 
-cities_fancy <- cities + theme(legend.position = "none") +
+cities_fancy <- cities +
+    geom_violin(aes(x="All", y=value), inherit.aes = FALSE, draw_quantiles = c(0.10, 0.90)) +
+    theme(legend.position = "none") +
     labs(x = " ",
          y = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 
-ggsave("figures/sla_violins_city.png", plot=cities_fancy, width=16, height=9, units="in")
+ggsave("figures/sla_violins_ALL.png", plot=cities_fancy, width=16, height=9, units="in")
 # calculate percentiles
 
 # pick low and high percentiles
@@ -134,7 +139,7 @@ test <- sla %>%
 cityHist <- ggplot(test, aes(x = value, fill =  City)) +
     facet_wrap(~ City) +
     geom_histogram(position = "stack", bins = 50)
-    
+
 
 cityHist <- cityHist + theme_bw(base_size = 18) +
     theme(legend.position = "None") +
@@ -177,5 +182,5 @@ sampEff_plot <- ggplot(sampEff, aes(x = City, y = n, fill = City)) +
 sampEff_plot <- sampEff_plot + theme_classic(base_size = 18) +
     theme(legend.position = "none") +
     labs(x = " ",
-         y = "Number of species")  
+         y = "Number of species")
 ggsave("figures/sampling_spfig.png", plot=sampEff_plot, width=16, height=9, units="in")
