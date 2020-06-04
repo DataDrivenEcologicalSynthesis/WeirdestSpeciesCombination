@@ -151,12 +151,14 @@ test <- sla %>%
 tempDf <- data.frame(c("Edmonton","Edmonton","Winnipeg","Winnipeg"), c(3,5,4,5), c(NA,NA), c(NA,NA)) #added manualy empty rows for the missing quadrat so we have one city per columns and they are not mixed up
 colnames(tempDf) <- colnames(test)
 test <- rbind(test, tempDf)
+test$City <- as.factor(test$City)
+test$City <- factor(test$City, levels = c("Vancouver","Edmonton","Winnipeg","Toronto","Montreal","Halifax"))
 
 allHist <- ggplot(test, aes(x = value, fill = City)) +
-    facet_wrap(quadrat ~ City) +
-    geom_histogram(position = "stack", bins = 50)
+    facet_grid(quadrat ~ City) +
+    geom_histogram(bins = 50)
 
- allHist <- allHist + theme(legend.position = "None") +
+allHist <- allHist + theme(legend.position = "None") +
     labs(y = "Count",
          x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 ggsave("figures/quadratHist.png", plot=allHist, width=16, height=9, units="in")
