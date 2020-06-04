@@ -136,7 +136,7 @@ cityHist <- ggplot(test, aes(x = value, fill =  City)) +
     geom_histogram(position = "stack", bins = 50)
     
 
-cityHist <- cityHist + theme_classic(base_size = 18) +
+cityHist <- cityHist + theme_bw(base_size = 18) +
     theme(legend.position = "None") +
     labs(y = "Count",
          x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
@@ -159,7 +159,8 @@ allHist <- ggplot(test, aes(x = value, fill = City)) +
     facet_grid(quadrat ~ City) +
     geom_histogram(bins = 50)
 
-allHist <- allHist + theme(legend.position = "None") +
+allHist <- allHist + theme_bw(base_size = 18) +
+    theme(legend.position = "None") +
     labs(y = "Count",
          x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 ggsave("figures/quadratHist.png", plot=allHist, width=16, height=9, units="in")
