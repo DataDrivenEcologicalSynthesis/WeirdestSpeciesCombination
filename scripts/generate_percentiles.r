@@ -14,21 +14,24 @@ sla <- species_traits %>%
 
 # have a quick peek at the data
 sla$City <- factor(sla$City, levels = c("Vancouver", "Edmonton", "Winnipeg", "Toronto", "Montreal", "Halifax")) # reordering city names West to East
-                                        
 
-cities <- ggplot(sla, aes(x=City, y=value, fill=as.factor(City))) +
-    geom_violin() +
-    theme_classic()
+canada <- ggplot(sla, aes(x=value)) +
+    geom_violin(draw_quantiles = c(0.10, 0.90)) +
+    theme_classic(base_size=18)
+
+
+cities <- ggplot(sla, aes(x=City, y=value, fill=City)) +
+    geom_violin(draw_quantiles = c(0.10, 0.90)) +
+    theme_classic(base_size=18) +
+    geom_violin(aes(x="All", y=value), inherit.aes = FALSE, draw_quantiles = c(0.10, 0.90))
 
 # fancied up a bit
 
-cities$sla$City <- factor(cities$sla$City,
-                           levels = c("Vancouver, Edmonton, Winnipeg, Toronto, Montreal, Halifax"))
-
-cities + theme(legend.position = "none") +
+cities_fancy <- cities + theme(legend.position = "none") +
     labs(x = " ",
          y = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 
+ggsave("figures/sla_violins_city.png", plot=cities_fancy, width=16, height=9, units="in")
 # calculate percentiles
 
 # pick low and high percentiles
@@ -87,13 +90,13 @@ local_weird %>%
 
 local_weird <- ggplot(local_weird, aes(x=value, fill=as.factor(City))) +
     geom_density(alpha=0.5) +
-    theme_classic() 
-    
+    theme_classic()
+
 ## fancied it up a bit
 
 local_weird + theme(legend.title = element_blank()) +
     labs(y = "Density",
-         x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")"))) 
+         x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 
 
 # write out locally weird
@@ -134,7 +137,7 @@ cityHist <- ggplot(test, aes(x = value, fill =  as.factor(City))) +
 
 cityHist + theme(legend.title = element_blank()) +
     labs(y = "Count",
-         x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")"))) 
+         x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 
 # Trying to make the 5 quadrat for each city (6x5 plots)
 test <- sla %>%
@@ -147,11 +150,11 @@ test <- rbind(test, tempDf)
 
 allHist <- ggplot(test, aes(x = value, fill = as.factor(City))) +
     facet_wrap(quadrat ~ City) +
-    geom_histogram(position = "stack", bins = 50) 
-    
+    geom_histogram(position = "stack", bins = 50)
+
 allHist + theme(legend.title = element_blank()) +
     labs(y = "Count",
-         x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")"))) 
+         x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 # That is legit the best i can do right now. judge me plz
 
 
@@ -166,4 +169,4 @@ sampEff_plot <- ggplot(sampEff, aes(x = City, y = n, fill = City)) +
 
 sampEff_plot + theme(legend.title = element_text("City")) +
     labs(y = "Number of observation",
-         x = "City") 
+         x = "City")
