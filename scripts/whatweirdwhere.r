@@ -63,10 +63,11 @@ weirdslaquadratcity <- ggplot(weirdspecies$city, aes(x=value, fill=City)) +
     labs(x="SLA")
 
 quadrat_sd_trends <- ggplot(quadrat_sd, aes(x=quadrat, y=sd, colour=City)) +
-    geom_point(aes(size=num)) +
+    geom_point(aes(size=num*2)) +
     geom_line() +
     theme_classic(base_size = 25) +
-    ylab("standard deviation of weird")
+    ylab("standard deviation of weird") +
+    scale_size(name="# of species")
 
 ggsave("figures/quadrat_trends.png", quadrat_sd_trends, width=16, height=9, units="in")
 
