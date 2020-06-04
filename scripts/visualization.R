@@ -1,6 +1,7 @@
 library(dplyr)
 library(ggplot2)
 library(ggbeeswarm)
+library(gridExtra)
 
 species_traits <- read.csv("data/species_and_their_traits.csv", header = TRUE, stringsAsFactors = FALSE)
 
@@ -49,7 +50,7 @@ unique(SLA_YEG$quadrat) # 1, 2, 4
 
 YEG <- ggplot(SLA_YEG, aes(x = as.factor(quadrat), y = value))
 
-YEG + geom_boxplot() +
+YEGS <- YEG + geom_boxplot() +
     theme_classic()
 
 # Halifax YHZ
@@ -61,7 +62,7 @@ unique(SLA_YHZ$quadrat) # 1, 2, 3, 4, 5
 
 YHZ <- ggplot(SLA_YHZ, aes(x = as.factor(quadrat), y = value))
 
-YHZ + geom_boxplot() +
+YHZS <-YHZ + geom_boxplot() +
     theme_classic()
 
 # Vancouver YVR
@@ -73,7 +74,7 @@ unique(SLA_YVR$quadrat) # 1, 2, 3, 4, 5
 
 YVR <- ggplot(SLA_YVR, aes(x = as.factor(quadrat), y = value))
 
-YVR + geom_boxplot() +
+YVRS <- YVR + geom_boxplot() +
     theme_classic()
 
 
@@ -85,7 +86,7 @@ unique(SLA_YWG$quadrat) # 1, 2, 3
 
 YWG <- ggplot(SLA_YWG, aes(x = as.factor(quadrat), y = value))
 
-YWG + geom_boxplot() +
+YWGS <- YWG + geom_boxplot() +
     theme_classic()
 
 # Toronto YYZ
@@ -97,7 +98,7 @@ unique(SLA_YYZ$quadrat) # 1, 2, 3, 4, 5
 
 YYZ <- ggplot(SLA_YYZ, aes(x = as.factor(quadrat), y = value))
 
-YYZ + geom_boxplot() +
+YYZS <- YYZ + geom_boxplot() +
     theme_classic()
 
 # Montreal YUL
@@ -109,5 +110,7 @@ unique(SLA_YUL$quadrat) # 1, 2, 3, 4, 5
 
 YUL <- ggplot(SLA_YUL, aes(x = as.factor(quadrat), y = value))
 
-YUL + geom_boxplot() +
+YULS <- YUL + geom_boxplot() +
     theme_classic()
+
+grid.arrange(YVRS, YEGS, YWGS, YYZS, YULS, YHZS, nrow = 6)
