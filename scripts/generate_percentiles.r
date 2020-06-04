@@ -136,7 +136,8 @@ cityHist <- ggplot(test, aes(x = value, fill =  City)) +
     geom_histogram(position = "stack", bins = 50)
     
 
-cityHist <- cityHist + theme(legend.position = "None") +
+cityHist <- cityHist + theme_classic(base_size = 18) +
+    theme(legend.position = "None") +
     labs(y = "Count",
          x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 
