@@ -152,14 +152,14 @@ tempDf <- data.frame(c("Edmonton","Edmonton","Winnipeg","Winnipeg"), c(3,5,4,5),
 colnames(tempDf) <- colnames(test)
 test <- rbind(test, tempDf)
 
-allHist <- ggplot(test, aes(x = value, fill = as.factor(City))) +
+allHist <- ggplot(test, aes(x = value, fill = City)) +
     facet_wrap(quadrat ~ City) +
     geom_histogram(position = "stack", bins = 50)
 
-allHist + theme(legend.title = element_blank()) +
+ allHist <- allHist + theme(legend.position = "None") +
     labs(y = "Count",
          x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
-# That is legit the best i can do right now. judge me plz
+ggsave("figures/quadratHist.png", plot=allHist, width=16, height=9, units="in")
 
 
 # Sampling effort. Don't know if we can say this is sampling effort, but thought it was worth showing how many obs. we had per city
