@@ -31,7 +31,7 @@ cities_fancy <- cities + theme(legend.position = "none") +
     labs(x = " ",
          y = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 
-ggsave("figures/sla_violins_city.png", plot=cities_fancy, width=9, height=6, units="in")
+ggsave("figures/sla_violins_city.png", plot=cities_fancy, width=16, height=9, units="in")
 # calculate percentiles
 
 # pick low and high percentiles
