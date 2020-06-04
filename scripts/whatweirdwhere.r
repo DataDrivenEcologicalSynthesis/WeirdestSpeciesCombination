@@ -31,4 +31,28 @@ city_sd <- globalweird_in_cities %>%
     summarize(sd = sd(value), num=n()) %>%
     arrange(desc(sd))
 
+# Which city-wide species are in each quadrat
+quadrat_sd <- weirdspecies$city %>%
+    group_by(City, quadrat) %>%
+    summarize(sd=sd(value), num=n()) %>%
+    arrange(desc(sd))
+
+# Top 5 weirdest quadrats
+# # Groups:   City [6]
+# City      quadrat    sd   num
+# <chr>       <int> <dbl> <int>
+# 1 Halifax         3  24.7     3
+# 2 Halifax         4  24.2     3
+# 3 Vancouver       1  23.9    83
+# 4 Montreal        1  22.8    77
+# 5 Vancouver       3  22.6     4
+
+# Plot of the "weird" species traits in each city and quadrat
+weirdslaquadratcity <- ggplot(weirdspecies$city, aes(x=value, fill=factor(quadrat, levels = c("5", "4", "3", "2","1")))) +
+    geom_density(alpha=0.5) +
+    facet_wrap("City") +
+    scale_fill_viridis_d("quadrat", option="cividis") +
+    theme_classic(base_size = 18)
+
+ggsave("analysis/weird_slas_by_city_and_quad.png",weirdslaquadratcity, width=16, height=9, units="in")
 
