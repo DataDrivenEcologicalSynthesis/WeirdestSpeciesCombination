@@ -62,6 +62,14 @@ weirdslaquadratcity <- ggplot(weirdspecies$city, aes(x=value, fill=City)) +
     theme(legend.position = "bottom", axis.text.y=element_blank() ) +
     labs(x="SLA")
 
+quadrat_sd_trends <- ggplot(quadrat_sd, aes(x=quadrat, y=sd, colour=City)) +
+    geom_point(aes(size=num)) +
+    geom_line() +
+    theme_classic(base_size = 18) +
+    theme(legend.position = "none" ) +
+    ylab("standard deviation of weird")
+
+ggsave("figures/quadrat_trends.png", quadrat_sd_trends, width=16, height=9, units="in")
 
 ggsave("figures/weird_slas_by_city_and_quad.png", weirdslaquadratcity, width=8, height=9, units="in")
 
