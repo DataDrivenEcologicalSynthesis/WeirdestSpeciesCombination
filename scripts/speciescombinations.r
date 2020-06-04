@@ -9,6 +9,7 @@ bycity <- species %>%
     map(select, species)
 
 #all cities
+
 inallcities <- Reduce(intersect, bycity) #species that occur in all cities - the most common city community
 #
 # > inallcities
@@ -85,6 +86,17 @@ vulgar <- ggplot(percent_common, aes(x=City, y=percent_common, fill=City)) +
     theme(legend.position = "none")
 
 ggsave("figures/city_vulgarity.png", vulgar, width = 16, height=9, units="in")
+
+# Percent of a city's species that are in the set of species that occur in all cities
+# City      percent_common
+# <chr>              <dbl>
+# 1 Winnipeg           16.4
+# 2 Edmonton            9.15
+# 3 Halifax             5.11
+# 4 Toronto             4.31
+# 5 Montreal            3.56
+# 6 Vancouver           2.10
+
 
 # all species that occur in more than one quadrat
 morethan1 <- species %>%

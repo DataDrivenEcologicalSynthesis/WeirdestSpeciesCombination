@@ -21,17 +21,29 @@ canada <- ggplot(sla, aes(x=value)) +
 
 
 cities <- ggplot(sla, aes(x=City, y=value, fill=City)) +
+    #geom_violin(aes(x="All", y=value), inherit.aes = FALSE, draw_quantiles = c(0.10, 0.90)) +
     geom_violin(draw_quantiles = c(0.10, 0.90)) +
-    theme_classic(base_size=18) +
-    geom_violin(aes(x="All", y=value), inherit.aes = FALSE, draw_quantiles = c(0.10, 0.90))
+    theme_classic(base_size=18)
+
+
+cities + geom_jitter(shape = 1, position = position_jitter(0.2)) ### added jittered points to violin plot
+
+cities$sla$City <- factor(cities$sla$City,
+                          levels = c("Vancouver, Edmonton, Winnipeg, Toronto, Montreal, Halifax")) # put cities in order
+=======
+#cities$sla$City <- factor(cities$sla$City,
+          #                levels = c("Vancouver, Edmonton, Winnipeg, Toronto, Montreal, Halifax")) # put cities in order
+
+
 
 # fancied up a bit
 
-cities_fancy <- cities + theme(legend.position = "none") +
+cities_fancy <- cities +
+    theme(legend.position = "none") +
     labs(x = " ",
          y = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 
-ggsave("figures/sla_violins_city.png", plot=cities_fancy, width=16, height=9, units="in")
+ggsave("figures/sla_violins_ALL.png", plot=cities_fancy, width=16, height=9, units="in")
 # calculate percentiles
 
 # pick low and high percentiles
@@ -57,6 +69,20 @@ ggplot(global_weird, aes(x=value)) +
 
 # write out globally weird
 write.csv(global_weird, "analysis/canada_weird.csv", row.names = FALSE)
+
+# GLOBAL NORMAL
+
+mediansla <- median(sla$value)
+global_normal <- sla %>%
+    select(-City, -quadrat) %>%
+    distinct() %>%
+    mutate(diff = abs(mediansla - value)) %>%
+    filter(diff==min(diff))
+
+# most normal species, globally
+# species TraitName    value diff
+# 1   Senecio viscosus       SLA 22.46667    0
+# 2 Sherardia arvensis       SLA 22.46667    0
 
 # LOCALLY WEIRD
 
@@ -122,6 +148,7 @@ ggplot(local_weird, aes(x=value, fill=as.factor(City))) +
 # write out hyperlocally weird
 write.csv(hyperlocal_weird, "analysis/quadrat_weird.csv", row.names = FALSE)
 
+
 #####################################################################################################################
 # Test section from Ben
 #require(reshape2)
@@ -134,7 +161,7 @@ test <- sla %>%
 cityHist <- ggplot(test, aes(x = value, fill =  City)) +
     facet_wrap(~ City) +
     geom_histogram(position = "stack", bins = 50)
-    
+
 
 cityHist <- cityHist + theme_bw(base_size = 18) +
     theme(legend.position = "None") +
@@ -177,5 +204,5 @@ sampEff_plot <- ggplot(sampEff, aes(x = City, y = n, fill = City)) +
 sampEff_plot <- sampEff_plot + theme_classic(base_size = 18) +
     theme(legend.position = "none") +
     labs(x = " ",
-         y = "Number of species")  
+         y = "Number of species")
 ggsave("figures/sampling_spfig.png", plot=sampEff_plot, width=16, height=9, units="in")
