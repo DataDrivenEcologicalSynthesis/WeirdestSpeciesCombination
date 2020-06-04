@@ -191,3 +191,18 @@ sampEff_plot <- sampEff_plot + theme_classic(base_size = 18) +
     labs(x = " ",
          y = "Number of species")
 ggsave("figures/sampling_spfig.png", plot=sampEff_plot, width=16, height=9, units="in")
+
+# species richness per quadrat
+sp_rich <- species_traits %>%
+    select(quadrat, species) %>%
+    unique(.) %>%
+    count(quadrat)
+
+sp_rich <- ggplot(sp_rich, aes(x = quadrat, y = n, fill = quadrat)) +
+    geom_bar(stat = "identity")
+
+sp_rich <- sp_rich + theme_classic(base_size = 18) +
+    theme(legend.position = "none") +
+    labs(x = "Quadrat",
+        y = "Number of species")
+ggsave("figures/sp_rich.png", plot = sp_rich, width = 16, height = 9, units = "in")
