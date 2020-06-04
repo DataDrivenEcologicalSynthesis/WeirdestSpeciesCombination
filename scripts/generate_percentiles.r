@@ -119,4 +119,51 @@ ggplot(local_weird, aes(x=value, fill=as.factor(City))) +
 # write out hyperlocally weird
 write.csv(hyperlocal_weird, "analysis/quadrat_weird.csv", row.names = FALSE)
 
+#####################################################################################################################
+# Test section from Ben
+#require(reshape2)
 
+# I think This one is OK!
+test <- sla %>%
+    select(-TraitName, -quadrat) %>%
+    group_by(City)
+cityHist <- ggplot(test, aes(x = value, fill =  as.factor(City))) +
+    facet_wrap(~ City) +
+    geom_histogram(position = "stack", bins = 50) +
+    ggtitle("Distribution of SLA by city, 5 quadrats confound")
+
+cityHist + theme(legend.title = element_blank()) +
+    labs(y = "Count",
+         x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")"))) 
+
+# Trying to make the 5 quadrat for each city (6x5 plots)
+test <- sla %>%
+    select(-TraitName) %>%
+    group_by(City, quadrat)
+#test <-  melt(test, value.name = "value")
+tempDf <- data.frame(c("Edmonton","Edmonton","Winnipeg","Winnipeg"), c(3,5,4,5), c(NA,NA), c(NA,NA)) #added manualy empty rows for the missing quadrat so we have one city per columns and they are not mixed up
+colnames(tempDf) <- colnames(test)
+test <- rbind(test, tempDf)
+
+allHist <- ggplot(test, aes(x = value, fill = as.factor(City))) +
+    facet_wrap(quadrat ~ City) +
+    geom_histogram(position = "stack", bins = 50) 
+    
+allHist + theme(legend.title = element_blank()) +
+    labs(y = "Count",
+         x = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")"))) 
+# That is legit the best i can do right now. judge me plz
+
+
+# Sampling effort. Don't know if we can say this is sampling effort, but thought it was worth showing how many obs. we had per city
+sampEff <- sla %>%
+    group_by(City) %>%
+    count()
+
+sampEff_plot <- ggplot(sampEff, aes(x = City, y = n, fill = City)) +
+    geom_bar(stat = "identity") +
+    ggtitle("Number of observation per city, all species confound")
+
+sampEff_plot + theme(legend.title = element_text("City")) +
+    labs(y = "Number of observation",
+         x = "City") 
