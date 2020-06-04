@@ -70,6 +70,20 @@ ggplot(global_weird, aes(x=value)) +
 # write out globally weird
 write.csv(global_weird, "analysis/canada_weird.csv", row.names = FALSE)
 
+# GLOBAL NORMAL
+
+mediansla <- median(sla$value)
+global_normal <- sla %>%
+    select(-City, -quadrat) %>%
+    distinct() %>%
+    mutate(diff = abs(mediansla - value)) %>%
+    filter(diff==min(diff))
+
+# most normal species, globally
+# species TraitName    value diff
+# 1   Senecio viscosus       SLA 22.46667    0
+# 2 Sherardia arvensis       SLA 22.46667    0
+
 # LOCALLY WEIRD
 
 # calculate weirdness percentiles for each city
@@ -133,6 +147,7 @@ ggplot(local_weird, aes(x=value, fill=as.factor(City))) +
 
 # write out hyperlocally weird
 write.csv(hyperlocal_weird, "analysis/quadrat_weird.csv", row.names = FALSE)
+
 
 #####################################################################################################################
 # Test section from Ben
