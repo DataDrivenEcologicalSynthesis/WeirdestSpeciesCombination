@@ -1,16 +1,5 @@
-# weird extremes
-library(purrr)
-
-weirdfiles <- paste0("analysis/", list.files("analysis/", pattern = "*.csv"))
-
-weirdlist <- map(weirdfiles, read.csv, header=TRUE, stringsAsFactors=FALSE)
-
-canada <- weirdlist[[1]] %>%
-    summarise(min = min(value), max=max(value))
-
-city <- weirdlist[[2]] %>%
-    group_by(City) %>%
-    summarise(min = min(value), max=max(value))
+# extremes
+library(dplyr)
 
 species_traits <- read.csv("data/species_and_their_traits.csv", header=TRUE, stringsAsFactors = FALSE)
 
