@@ -9,10 +9,15 @@ paths <- c("analysis/canada_weird.csv", "analysis/city_weird.csv", "analysis/qua
 weirdspecies <- map(paths, read.csv, header=TRUE, stringsAsFactors=FALSE)
 names(weirdspecies) <- c("canada", "city", "quadrat")
 
+
+weirdspecies$city$City <- factor(weirdspecies$city$City, levels = c("Vancouver", "Edmonton", "Winnipeg", "Toronto", "Montreal", "Halifax"))
+
 # get all species and their SLA trait data
 species <- read.csv("data/species_and_their_traits.csv", header=TRUE, stringsAsFactors = FALSE) %>%
     filter(TraitName == "Leaf area per leaf dry mass (specific leaf area, SLA or 1/LMA): petiole excluded") %>%
     mutate(TraitName = "SLA") # Make the trait name easier to work with
+
+species$City <- factor(species$City, levels = c("Vancouver", "Edmonton", "Winnipeg", "Toronto", "Montreal", "Halifax"))
 
 # Which Canada-wide weird species are in each city?
 
@@ -20,11 +25,13 @@ globalweird_in_cities <- species %>%
     filter(species %in% weirdspecies$canada$species) %>%
     group_by(City)
 
-ggplot(globalweird_in_cities, aes(x=value, fill=City)) +
-    geom_density(alpha=0.25) +
-    scale_fill_viridis_d() +
+globalweird <- ggplot(globalweird_in_cities, aes(x=value, fill=City)) +
+    geom_density() +
     theme_bw() +
-    ggtitle("Distribution of SLA", subtitle = "for Canada-wide weird species")
+    ggtitle("Distribution of SLA", subtitle = "for Canada-wide weird species") +
+    facet_wrap("City")
+
+ggsave("figures/weird_slas_by_city.png", globalweird, width=8, height=9, units="in")
 
 ## Which city has the highest standard deviation in SLA for weird species, and how many weird species does it have in total?
 city_sd <- globalweird_in_cities %>%
@@ -48,11 +55,13 @@ quadrat_sd <- weirdspecies$city %>%
 # 5 Vancouver       3  22.6     4
 
 # Plot of the "weird" species traits in each city and quadrat
-weirdslaquadratcity <- ggplot(weirdspecies$city, aes(x=value, fill=factor(quadrat, levels = c("5", "4", "3", "2","1")))) +
+weirdslaquadratcity <- ggplot(weirdspecies$city, aes(x=value, fill=City)) +
     geom_density(alpha=0.5) +
-    facet_wrap("City") +
-    scale_fill_viridis_d("quadrat", option="cividis") +
-    theme_classic(base_size = 18)
+    facet_grid(factor(quadrat, levels = c("5", "4", "3", "2", "1")) ~ .) +
+    theme_classic(base_size = 18) +
+    theme(legend.position = "bottom", axis.text.y=element_blank() ) +
+    labs(x="SLA")
 
-ggsave("analysis/weird_slas_by_city_and_quad.png",weirdslaquadratcity, width=16, height=9, units="in")
+
+ggsave("figures/weird_slas_by_city_and_quad.png", weirdslaquadratcity, width=8, height=9, units="in")
 
