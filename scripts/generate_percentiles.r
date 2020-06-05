@@ -26,15 +26,10 @@ cities <- ggplot(sla, aes(x=City, y=value, fill=City)) +
     theme_classic(base_size=18)
 
 
-cities + geom_jitter(shape = 1, position = position_jitter(0.2)) ### added jittered points to violin plot
+#cities + geom_jitter(shape = 1, position = position_jitter(0.2)) ### added jittered points to violin plot
 
 cities$sla$City <- factor(cities$sla$City,
                           levels = c("Vancouver, Edmonton, Winnipeg, Toronto, Montreal, Halifax")) # put cities in order
-=======
-#cities$sla$City <- factor(cities$sla$City,
-          #                levels = c("Vancouver, Edmonton, Winnipeg, Toronto, Montreal, Halifax")) # put cities in order
-
-
 
 # fancied up a bit
 
@@ -44,6 +39,28 @@ cities_fancy <- cities +
          y = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
 
 ggsave("figures/sla_violins_ALL.png", plot=cities_fancy, width=16, height=9, units="in")
+
+
+# quad violins
+quads <- ggplot(sla, aes(x=as.factor(quadrat), y=value, fill=City)) +
+    geom_violin(draw_quantiles = c(0.10, 0.90)) +
+    facet_wrap("City") +
+    theme_classic(base_size=18)
+
+
+#cities + geom_jitter(shape = 1, position = position_jitter(0.2)) ### added jittered points to violin plot
+
+cities$sla$City <- factor(cities$sla$City,
+                          levels = c("Vancouver, Edmonton, Winnipeg, Toronto, Montreal, Halifax")) # put cities in order
+
+# fancied up a bit
+
+quads_fancy <- quads +
+    theme(legend.position = "none") +
+    labs(x = " ",
+         y = expression(paste("Specific Leaf Area (mm"^2, " ", mg^-1, sep=")")))
+
+ggsave("figures/sla_violins_quads.png", plot=quads_fancy, width=16, height=9, units="in")
 # calculate percentiles
 
 # pick low and high percentiles
@@ -141,8 +158,12 @@ hyperlocal_weird <- sla %>%
     select(-low, -high)
 
 # visual check - two humped?
-ggplot(local_weird, aes(x=value, fill=as.factor(City))) +
+ggplot(hyperlocal_weird, aes(x=value, fill=as.factor(City))) +
     geom_density(alpha=0.5) +
+    facet_wrap("quadrat")
+
+ggplot(hyperlocal_weird, aes(x=City, y=value, fill=City)) +
+    geom_violin() +
     facet_wrap("quadrat")
 
 # write out hyperlocally weird
